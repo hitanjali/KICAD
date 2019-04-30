@@ -1,0 +1,150 @@
+EESchema Schematic File Version 4
+LIBS:top-cache
+LIBS:pcb1-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_01x02 J6
+U 1 1 5CC03AC1
+P 5700 1900
+F 0 "J6" H 5620 1575 50  0000 C CNN
+F 1 "Conn_01x02" H 5620 1666 50  0000 C CNN
+F 2 "Connector_JST:JST_EH_B02B-EH-A_1x02_P2.50mm_Vertical" H 5700 1900 50  0001 C CNN
+F 3 "~" H 5700 1900 50  0001 C CNN
+	1    5700 1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J7
+U 1 1 5CC03B4B
+P 5700 2500
+F 0 "J7" H 5620 2175 50  0000 C CNN
+F 1 "Conn_01x02" H 5620 2266 50  0000 C CNN
+F 2 "Connector_JST:JST_EH_B02B-EH-A_1x02_P2.50mm_Vertical" H 5700 2500 50  0001 C CNN
+F 3 "~" H 5700 2500 50  0001 C CNN
+	1    5700 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J8
+U 1 1 5CC03BB6
+P 7750 2150
+F 0 "J8" H 7830 2142 50  0000 L CNN
+F 1 "Conn_01x02" H 7830 2051 50  0000 L CNN
+F 2 "Connector_JST:JST_EH_B02B-EH-A_1x02_P2.50mm_Vertical" H 7750 2150 50  0001 C CNN
+F 3 "~" H 7750 2150 50  0001 C CNN
+	1    7750 2150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 5CC03E7B
+P 6300 1850
+F 0 "D1" V 6338 1733 50  0000 R CNN
+F 1 "LED" V 6247 1733 50  0000 R CNN
+F 2 "Button_Switch_SMD:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W6.73mm_P2.54mm_LowProfile_JPin" H 6300 1850 50  0001 C CNN
+F 3 "~" H 6300 1850 50  0001 C CNN
+	1    6300 1850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Photo D2
+U 1 1 5CC03F17
+P 6300 2450
+F 0 "D2" V 6204 2607 50  0000 L CNN
+F 1 "D_Photo" V 6295 2607 50  0000 L CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 6250 2450 50  0001 C CNN
+F 3 "~" H 6250 2450 50  0001 C CNN
+	1    6300 2450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5900 1800 5900 1700
+Wire Wire Line
+	5900 1700 6300 1700
+Wire Wire Line
+	5900 1900 5900 2000
+Wire Wire Line
+	5900 2000 6300 2000
+Wire Wire Line
+	5900 2400 5900 2250
+Wire Wire Line
+	5900 2250 6300 2250
+Wire Wire Line
+	5900 2500 5900 2550
+Wire Wire Line
+	5900 2550 6300 2550
+$Comp
+L Connector_Generic:Conn_01x02 J9
+U 1 1 5CC05067
+P 7800 2700
+F 0 "J9" H 7880 2692 50  0000 L CNN
+F 1 "Conn_01x02" H 7880 2601 50  0000 L CNN
+F 2 "Connector_JST:JST_EH_B02B-EH-A_1x02_P2.50mm_Vertical" H 7800 2700 50  0001 C CNN
+F 3 "~" H 7800 2700 50  0001 C CNN
+	1    7800 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_SPST SW1
+U 1 1 5CC05250
+P 8350 2050
+F 0 "SW1" V 8304 2148 50  0000 L CNN
+F 1 "SW_SPST" V 8395 2148 50  0000 L CNN
+F 2 "Button_Switch_SMD:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W6.73mm_P2.54mm_LowProfile_JPin" H 8350 2050 50  0001 C CNN
+F 3 "" H 8350 2050 50  0001 C CNN
+	1    8350 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW2
+U 1 1 5CC052FB
+P 8350 2650
+F 0 "SW2" V 8304 2748 50  0000 L CNN
+F 1 "SW_SPST" V 8395 2748 50  0000 L CNN
+F 2 "Button_Switch_SMD:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W6.73mm_P2.54mm_LowProfile_JPin" H 8350 2650 50  0001 C CNN
+F 3 "" H 8350 2650 50  0001 C CNN
+	1    8350 2650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7950 2050 7950 1850
+Wire Wire Line
+	7950 1850 8350 1850
+Wire Wire Line
+	7950 2150 7950 2250
+Wire Wire Line
+	7950 2250 8350 2250
+Wire Wire Line
+	8000 2600 8000 2450
+Wire Wire Line
+	8000 2450 8350 2450
+Wire Wire Line
+	8000 2700 8000 2850
+Wire Wire Line
+	8000 2850 8350 2850
+$Sheet
+S 7050 4900 1300 1000
+U 5CC0853C
+F0 "Sheet5CC0853B" 50
+F1 "Touch_sesor.sch" 50
+$EndSheet
+$Sheet
+S 4300 5700 500  150 
+U 5CC09743
+F0 "Sheet5CC09742" 50
+F1 "Main_board.sch" 50
+$EndSheet
+$EndSCHEMATC

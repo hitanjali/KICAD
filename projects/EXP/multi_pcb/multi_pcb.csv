@@ -1,0 +1,5 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"D1";"LED_0805_2012Metric";1;"LED";;;
+2;"D2";"LED_0805_2012Metric";1;"D_Photo";;;
+3;"J1,J2,J3,J4";"JST_EH_B02B-EH-A_1x02_P2.50mm_Vertical";4;"Conn_01x02";;;
+4;"SW1,SW2";"SW_DIP_SPSTx01_Slide_6.7x4.1mm_W6.73mm_P2.54mm_LowProfile_JPin";2;"SW_SPST";;;

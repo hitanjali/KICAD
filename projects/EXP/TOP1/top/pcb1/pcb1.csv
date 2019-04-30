@@ -1,0 +1,8 @@
+"Source:","/home/hitesh/KICAD/projects/EXP/TOP1/top/pcb1/pcb1.sch"
+"Date:","Wed Apr 24 16:33:38 2019"
+"Tool:","Eeschema 5.0.2-bee76a0~70~ubuntu18.04.1"
+"Generator:","/usr/share/kicad/plugins/bom_csv_grouped_by_value_with_fp.py"
+"Component Count:","3"
+"Ref","Qnty","Value","Cmp name","Footprint","Description","Vendor"
+"J1, J2, ","2","Conn_01x03","Conn_01x03","Connector_JST:JST_EH_B03B-EH-A_1x03_P2.50mm_Vertical","Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)",""
+"PCB1, ","1","TouchSensor","TouchSensor","","",""
