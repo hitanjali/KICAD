@@ -1,9 +1,6 @@
 EESchema Schematic File Version 4
-LIBS:motbox-cache
-LIBS:ir_tx_led-cache
-LIBS:ir_rx_led-cache
-LIBS:touch_switch-cache
-LIBS:limit_switch-cache
+LIBS:MOTBOX_TOP-cache
+LIBS:motbox_with_promini-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -44,7 +41,7 @@ $Comp
 L Connector_Generic:Conn_01x04 J8
 U 1 1 5CC28BDB
 P 4450 3200
-F 0 "J8" H 4370 2775 50  0000 C CNN
+F 0 "J8" H 4450 2900 50  0000 C CNN
 F 1 "Conn_01x04" H 4370 2866 50  0001 C CNN
 F 2 "Connector_Wire:SolderWirePad_1x04_P3.175mm_Drill0.8mm" H 4450 3200 50  0001 C CNN
 F 3 "~" H 4450 3200 50  0001 C CNN

@@ -1,9 +1,6 @@
 EESchema Schematic File Version 4
-LIBS:motbox-cache
-LIBS:ir_tx_led-cache
-LIBS:ir_rx_led-cache
-LIBS:touch_switch-cache
-LIBS:limit_switch-cache
+LIBS:MOTBOX_TOP-cache
+LIBS:motbox_with_promini-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
