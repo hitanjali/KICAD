@@ -1,11 +1,10 @@
 EESchema Schematic File Version 4
 LIBS:MOTBOX_TOP-cache
-LIBS:motbox_with_promini-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 6
+Sheet 4 6
 Title ""
 Date ""
 Rev ""
@@ -19,7 +18,7 @@ $Comp
 L Connector_Generic:Conn_01x03 J15
 U 1 1 5CC06330
 P 5400 3200
-F 0 "J15" H 5480 3242 50  0000 L CNN
+F 0 "J15" H 5350 3000 50  0000 L CNN
 F 1 "Conn_01x03" H 5480 3151 50  0001 L CNN
 F 2 "Connector_Wire:SolderWirePad_1x03_P3.175mm_Drill0.8mm" H 5400 3200 50  0001 C CNN
 F 3 "~" H 5400 3200 50  0001 C CNN

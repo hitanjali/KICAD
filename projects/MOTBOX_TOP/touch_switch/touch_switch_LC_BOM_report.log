@@ -1,0 +1,73 @@
+================================================================================
+Path of the xml file : /home/hitesh/KICAD/projects/MOTBOX_TOP/touch_switch/touch_switch.xml
+Path of the report file : /home/hitesh/KICAD/projects/MOTBOX_TOP/touch_switch/touch_switch_LC_BOM_report.log
+Path of the cvs file : /home/hitesh/KICAD/projects/MOTBOX_TOP/touch_switch/touch_switch.csv
+Path of the LC BOM csv file : /home/hitesh/KICAD/projects/MOTBOX_TOP/touch_switch/touch_switch_LC_BOM.csv
+Path of the LC BOM XLS file : /home/hitesh/KICAD/projects/MOTBOX_TOP/touch_switch/touch_switch_LC_BOM.xlsx
+================================================================================
+================================================================================
+Lib parts parsing : Started
+================================================================================
+
+Component : Conn_01x03
+Num of pins : 3
+
+Component : Conn_01x04
+Num of pins : 4
+
+Component : LED
+Num of pins : 2
+
+Component : JST_Female_3pin
+
+
+================================================================================
+Preparing lc bom from the csv bom
+================================================================================
+Designator : "D1, "
+Quantity : "1"
+Value : "LED"
+Comp name : LED
+Package : "LED_THT:LED_D3.0mm"
+Comments : "Light emitting diode"
+# of pins : 2
+-------------------------------------
+
+Designator : "J1, "
+Quantity : "1"
+Value : "Conn_01x03"
+Comp name : Conn_01x03
+Package : "Connector_Wire:SolderWirePad_1x03_P3.175mm_Drill0.8mm"
+Comments : "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+# of pins : 3
+-------------------------------------
+
+Designator : "J2, "
+Quantity : "1"
+Value : "Conn_01x04"
+Comp name : Conn_01x04
+Package : "Connector_Wire:SolderWirePad_1x04_P3.175mm_Drill0.8mm"
+Comments : "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+# of pins : 4
+-------------------------------------
+
+Designator : "J3, "
+Quantity : "1"
+Value : "JST_Female_3pin"
+Comp name : JST_Female_3pin
+Package : ""
+Comments : ""
+-------------------------------------
+WARNINGS : NO PINS : JST_Female_3pin
+-------------------------------------
+
+Designator : "PCB1, "
+Quantity : "1"
+Value : "TTP223_Touch_sensor"
+Comp name : TTP223_Touch_sensor
+Package : ""
+Comments : ""
+-------------------------------------
+WARNINGS : NO PINS : TTP223_Touch_sensor
+-------------------------------------
+

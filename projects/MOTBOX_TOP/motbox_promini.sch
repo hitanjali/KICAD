@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
 LIBS:MOTBOX_TOP-cache
-LIBS:motbox_with_promini-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -357,20 +356,6 @@ F 2 "Inductor_SMD:L_Bourns_SRN6045TA" H 3100 6950 50  0001 C CNN
 F 3 "~" H 3100 6950 50  0001 C CNN
 	1    3100 6950
 	0    -1   -1   0   
-$EndComp
-$Comp
-L Regulator_Switching:LM2575-5.0BU U?
-U 1 1 5CC2F329
-P 2200 6850
-AR Path="/5CC16294/5CC2F329" Ref="U?"  Part="1" 
-AR Path="/5CC2F329" Ref="U?"  Part="1" 
-AR Path="/5CCC7C1B/5CC2F329" Ref="U1"  Part="1" 
-F 0 "U1" H 2200 7217 50  0000 C CNN
-F 1 "LM2575-5.0BU" H 2200 7126 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:TO-263-5_TabPin3" H 2200 6600 50  0001 L CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/lm2575.pdf" H 2200 6850 50  0001 C CNN
-	1    2200 6850
-	1    0    0    -1  
 $EndComp
 $Comp
 L Diode:1N5822 D?
@@ -1080,4 +1065,15 @@ Wire Wire Line
 Connection ~ 5000 1300
 Wire Wire Line
 	5000 1300 5000 1400
+$Comp
+L Regulator_Switching:LM2575-5.0BU U1
+U 1 1 5CD4158E
+P 2200 6850
+F 0 "U1" H 2200 7217 50  0000 C CNN
+F 1 "LM2575-5.0BU" H 2200 7126 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TO-263-5_TabPin3" H 2200 6600 50  0001 L CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/lm2575.pdf" H 2200 6850 50  0001 C CNN
+	1    2200 6850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -1,0 +1,4 @@
+S.No,Manufacturing Part No,Designator,Quantity,Description(VALUE),Package(CASE),Top/Bottom,Points (No. of Pins),Comments,,
+1,  , "D1, " , "1" , "LED" , "LED_THT:LED_D3.0mm" , TOP , 2, "Light emitting diode", , 
+2,  , "J1, " , "1" , "Conn_01x03" , "Connector_Wire:SolderWirePad_1x03_P3.175mm_Drill0.8mm" , TOP , 3, "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)", , 
+3,  , "J2, " , "1" , "Conn_01x04" , "Connector_Wire:SolderWirePad_1x04_P3.175mm_Drill0.8mm" , TOP , 4, "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)", , 

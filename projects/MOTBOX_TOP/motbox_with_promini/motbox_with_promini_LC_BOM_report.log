@@ -1,0 +1,287 @@
+================================================================================
+Path of the xml file : /home/hitesh/KICAD/projects/MOTBOX_TOP/motbox_with_promini/motbox_with_promini.xml
+Path of the report file : /home/hitesh/KICAD/projects/MOTBOX_TOP/motbox_with_promini/motbox_with_promini_LC_BOM_report.log
+Path of the cvs file : /home/hitesh/KICAD/projects/MOTBOX_TOP/motbox_with_promini/motbox_with_promini.csv
+Path of the LC BOM csv file : /home/hitesh/KICAD/projects/MOTBOX_TOP/motbox_with_promini/motbox_with_promini_LC_BOM.csv
+Path of the LC BOM XLS file : /home/hitesh/KICAD/projects/MOTBOX_TOP/motbox_with_promini/motbox_with_promini_LC_BOM.xlsx
+================================================================================
+================================================================================
+Lib parts parsing : Started
+================================================================================
+
+Component : LM2903
+Alias comp : LM393
+Alias comp : LMV393
+Alias comp : MCP6562
+Alias comp : MCP6567
+Num of pins : 8
+
+Component : Conn_01x02
+Num of pins : 2
+
+Component : Conn_01x03
+Num of pins : 3
+
+Component : Conn_01x04
+Num of pins : 4
+
+Component : Conn_01x06
+Num of pins : 6
+
+Component : Conn_01x12
+Num of pins : 12
+
+Component : CP1_Small
+Num of pins : 2
+
+Component : L_Small
+Num of pins : 2
+
+Component : R_US
+Num of pins : 2
+
+Component : 1N5820
+Alias comp : 1N5821
+Alias comp : 1N5822
+Alias comp : MBR340
+Num of pins : 2
+
+Component : L293
+Alias comp : L293D
+Num of pins : 16
+
+Component : LM2576HVS-12
+Alias comp : LM2576HVS-3.3
+Alias comp : LM2576HVS-5
+Alias comp : LM2576HVS-15
+Alias comp : LM2576HVS-ADJ
+Alias comp : LM2576S-12
+Alias comp : LM2576S-3.3
+Alias comp : LM2576S-5
+Alias comp : LM2576S-15
+Alias comp : LM2576S-ADJ
+Alias comp : LM2575BU-ADJ
+Alias comp : LM2575-3.3BU
+Alias comp : LM2575-5.0BU
+Alias comp : LM2575-12BU
+Alias comp : GL2576-3.3TA5R
+Alias comp : GL2576-5.0TA5R
+Alias comp : GL2576-12TA5R
+Alias comp : GL2576-15TA5R
+Alias comp : GL2576-ATA5R
+Num of pins : 5
+
+Component : AnyPCB
+
+
+================================================================================
+Preparing lc bom from the csv bom
+================================================================================
+Designator : "C1, "
+Quantity : "1"
+Value : "100uF"
+Comp name : CP1_Small
+Package : "Capacitor_SMD:CP_Elec_6.3x7.7"
+Comments : "Polarized capacitor, small US symbol"
+# of pins : 2
+-------------------------------------
+
+Designator : "C2, "
+Quantity : "1"
+Value : "1000uF"
+Comp name : CP1_Small
+Package : "Capacitor_SMD:CP_Elec_10x10"
+Comments : "Polarized capacitor, small US symbol"
+# of pins : 2
+-------------------------------------
+
+Designator : "D1, "
+Quantity : "1"
+Value : "1N5822"
+Comp name : 1N5822
+Package : "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
+Comments : "40V 3A Schottky Barrier Rectifier Diode, DO-201AD"
+# of pins : 2
+-------------------------------------
+
+Designator : "J1, "
+Quantity : "1"
+Value : "12V IN"
+Comp name : Conn_01x02
+Package : "Connector_JST:JST_EH_B02B-EH-A_1x02_P2.50mm_Vertical"
+Comments : "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+# of pins : 2
+-------------------------------------
+
+Designator : "J2, "
+Quantity : "1"
+Value : "Manual EN"
+Comp name : Conn_01x03
+Package : "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+Comments : "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+# of pins : 3
+-------------------------------------
+
+Designator : "J3, "
+Quantity : "1"
+Value : "OBS_IR_TX"
+Comp name : Conn_01x02
+Package : "Connector_JST:JST_EH_B02B-EH-A_1x02_P2.50mm_Vertical"
+Comments : "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+# of pins : 2
+-------------------------------------
+
+Designator : "J4, "
+Quantity : "1"
+Value : "OP_CL_OBS_DET_LED"
+Comp name : Conn_01x04
+Package : "Connector_JST:JST_EH_B04B-EH-A_1x04_P2.50mm_Vertical"
+Comments : "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+# of pins : 4
+-------------------------------------
+
+Designator : "J5, "
+Quantity : "1"
+Value : "OBS IR RX"
+Comp name : Conn_01x02
+Package : "Connector_JST:JST_EH_B02B-EH-A_1x02_P2.50mm_Vertical"
+Comments : "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+# of pins : 2
+-------------------------------------
+
+Designator : "J6, "
+Quantity : "1"
+Value : "Open Close Done"
+Comp name : Conn_01x04
+Package : "Connector_JST:JST_EH_B04B-EH-A_1x04_P2.50mm_Vertical"
+Comments : "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+# of pins : 4
+-------------------------------------
+
+Designator : "J7, "
+Quantity : "1"
+Value : "Motor"
+Comp name : Conn_01x02
+Package : "Connector_JST:JST_EH_B02B-EH-A_1x02_P2.50mm_Vertical"
+Comments : "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+# of pins : 2
+-------------------------------------
+
+Designator : "L1, "
+Quantity : "1"
+Value : "100UH"
+Comp name : L_Small
+Package : "Inductor_SMD:L_Bourns_SRN6045TA"
+Comments : "Inductor, small symbol"
+# of pins : 2
+-------------------------------------
+
+Designator : "P1, "
+Quantity : "1"
+Value : "Digital"
+Comp name : Conn_01x12
+Package : "Socket_Arduino_Pro_Mini:Socket_Strip_Arduino_1x12"
+Comments : "Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)"
+# of pins : 12
+-------------------------------------
+
+Designator : "P2, P4, "
+Quantity : "2"
+Value : "ADC"
+Comp name : Conn_01x02
+Package : "Socket_Arduino_Pro_Mini:Socket_Strip_Arduino_1x02"
+Comments : "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+# of pins : 2
+-------------------------------------
+
+Designator : "P3, "
+Quantity : "1"
+Value : "COM"
+Comp name : Conn_01x06
+Package : "Socket_Arduino_Pro_Mini:Socket_Strip_Arduino_1x06"
+Comments : "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+# of pins : 6
+-------------------------------------
+
+Designator : "P5, "
+Quantity : "1"
+Value : "Analog"
+Comp name : Conn_01x12
+Package : "Socket_Arduino_Pro_Mini:Socket_Strip_Arduino_1x12"
+Comments : "Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)"
+# of pins : 12
+-------------------------------------
+
+Designator : "PCB1, "
+Quantity : "1"
+Value : "Arduino_Pro_mini"
+Comp name : AnyPCB
+Package : ""
+Comments : ""
+-------------------------------------
+WARNINGS : NO PINS : AnyPCB
+-------------------------------------
+
+Designator : "R1, "
+Quantity : "1"
+Value : "TBD"
+Comp name : R_US
+Package : "Resistor_SMD:R_1206_3216Metric"
+Comments : "Resistor, US symbol"
+# of pins : 2
+-------------------------------------
+
+Designator : "R2, R5, "
+Quantity : "2"
+Value : "150"
+Comp name : R_US
+Package : "Resistor_SMD:R_1206_3216Metric"
+Comments : "Resistor, US symbol"
+# of pins : 2
+-------------------------------------
+
+Designator : "R3, R4, R8, R7, "
+Quantity : "4"
+Value : "100K"
+Comp name : R_US
+Package : "Resistor_SMD:R_1206_3216Metric"
+Comments : "Resistor, US symbol"
+# of pins : 2
+-------------------------------------
+
+Designator : "R6, "
+Quantity : "1"
+Value : "10K"
+Comp name : R_US
+Package : "Resistor_SMD:R_1206_3216Metric"
+Comments : "Resistor, US symbol"
+# of pins : 2
+-------------------------------------
+
+Designator : "U1, "
+Quantity : "1"
+Value : "LM2575-5.0BU"
+Comp name : LM2575-5.0BU
+Package : "Package_TO_SOT_SMD:TO-263-5_TabPin3"
+Comments : "Fixed 5.0V 52kHz Simple 1A Buck Regulator, TO-263"
+# of pins : 5
+-------------------------------------
+
+Designator : "U2, "
+Quantity : "1"
+Value : "LM393"
+Comp name : LM393
+Package : "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+Comments : "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/SSOP-8"
+# of pins : 8
+-------------------------------------
+
+Designator : "U3, "
+Quantity : "1"
+Value : "L293D"
+Comp name : L293D
+Package : "Package_DIP:DIP-16_W7.62mm"
+Comments : "Quadruple Half-H Drivers"
+# of pins : 16
+-------------------------------------
+

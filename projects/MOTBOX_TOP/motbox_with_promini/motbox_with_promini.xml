@@ -1,81 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>/home/hitesh/KICAD/projects/MOTBOX_TOP/MOTBOX_TOP.sch</source>
-    <date>Thu May  9 12:05:44 2019</date>
+    <source>/home/hitesh/KICAD/projects/MOTBOX_TOP/motbox_with_promini/motbox_with_promini.sch</source>
+    <date>Fri May 10 08:55:08 2019</date>
     <tool>Eeschema 5.0.2-bee76a0~70~ubuntu18.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
         <company/>
         <rev/>
-        <date/>
-        <source>MOTBOX_TOP.sch</source>
-        <comment number="1" value=""/>
-        <comment number="2" value=""/>
-        <comment number="3" value=""/>
-        <comment number="4" value=""/>
-      </title_block>
-    </sheet>
-    <sheet number="2" name="/IR_TX/" tstamps="/5CC074BA/">
-      <title_block>
-        <title/>
-        <company/>
-        <rev/>
-        <date/>
-        <source>IR_TX.sch</source>
-        <comment number="1" value=""/>
-        <comment number="2" value=""/>
-        <comment number="3" value=""/>
-        <comment number="4" value=""/>
-      </title_block>
-    </sheet>
-    <sheet number="3" name="/IR_RX/" tstamps="/5CC074C0/">
-      <title_block>
-        <title/>
-        <company/>
-        <rev/>
-        <date/>
-        <source>IR_RX.sch</source>
-        <comment number="1" value=""/>
-        <comment number="2" value=""/>
-        <comment number="3" value=""/>
-        <comment number="4" value=""/>
-      </title_block>
-    </sheet>
-    <sheet number="4" name="/touch_switch/" tstamps="/5CC074C2/">
-      <title_block>
-        <title/>
-        <company/>
-        <rev/>
-        <date/>
-        <source>touch_switch.sch</source>
-        <comment number="1" value=""/>
-        <comment number="2" value=""/>
-        <comment number="3" value=""/>
-        <comment number="4" value=""/>
-      </title_block>
-    </sheet>
-    <sheet number="5" name="/limit_switch/" tstamps="/5CC074C6/">
-      <title_block>
-        <title/>
-        <company/>
-        <rev/>
-        <date/>
-        <source>limit_switch.sch</source>
-        <comment number="1" value=""/>
-        <comment number="2" value=""/>
-        <comment number="3" value=""/>
-        <comment number="4" value=""/>
-      </title_block>
-    </sheet>
-    <sheet number="6" name="/motbox_promini/" tstamps="/5CCC7C1B/">
-      <title_block>
-        <title/>
-        <company/>
-        <rev/>
-        <date/>
-        <source>motbox_promini.sch</source>
+        <date>sam. 04 avril 2015</date>
+        <source>motbox_with_promini.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
@@ -84,191 +19,47 @@
     </sheet>
   </design>
   <components>
-    <comp ref="M1">
-      <value>Motor</value>
-      <libsource lib="hitesh_custom" part="Motor" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CC1380B</tstamp>
-    </comp>
-    <comp ref="J9">
-      <value>JST_Female_2pin</value>
-      <libsource lib="hitesh_custom" part="JST_Female_2pin" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CC13D91</tstamp>
-    </comp>
-    <comp ref="J11">
-      <value>JST_Female_4pin</value>
-      <libsource lib="hitesh_custom" part="JST_Female_4pin" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CC13E36</tstamp>
-    </comp>
-    <comp ref="J10">
-      <value>JST_Female_4pin</value>
-      <libsource lib="hitesh_custom" part="JST_Female_4pin" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CC1556A</tstamp>
-    </comp>
-    <comp ref="J12">
-      <value>JST_Female_2pin</value>
-      <libsource lib="hitesh_custom" part="JST_Female_2pin" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CC15D77</tstamp>
-    </comp>
-    <comp ref="J13">
-      <value>JST_Female_2pin</value>
-      <libsource lib="hitesh_custom" part="JST_Female_2pin" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CC1658A</tstamp>
-    </comp>
-    <comp ref="PWR1">
-      <value>SMPS_12V</value>
-      <libsource lib="hitesh_custom" part="SMPS" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CC91415</tstamp>
-    </comp>
-    <comp ref="J1">
-      <value>JST_Female_2pin</value>
-      <libsource lib="hitesh_custom" part="JST_Female_2pin" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CC919BD</tstamp>
-    </comp>
-    <comp ref="J2">
-      <value>JST_Female_2pin</value>
-      <libsource lib="hitesh_custom" part="JST_Female_2pin" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CC91AE0</tstamp>
-    </comp>
-    <comp ref="D2">
-      <value>LED</value>
-      <footprint>LED_THT:LED_D5.0mm_Horizontal_O6.35mm_Z9.0mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="LED" description="Light emitting diode"/>
-      <sheetpath names="/IR_TX/" tstamps="/5CC074BA/"/>
-      <tstamp>5CC072E3</tstamp>
-    </comp>
-    <comp ref="J14">
-      <value>Conn_01x02</value>
-      <footprint>Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill0.8mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/IR_TX/" tstamps="/5CC074BA/"/>
-      <tstamp>5CC2835A</tstamp>
-    </comp>
-    <comp ref="D3">
-      <value>D_Photo</value>
-      <footprint>LED_THT:LED_D5.0mm_Horizontal_O6.35mm_Z9.0mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="D_Photo" description="Photodiode"/>
-      <sheetpath names="/IR_RX/" tstamps="/5CC074C0/"/>
-      <tstamp>5CC07017</tstamp>
-    </comp>
-    <comp ref="J18">
-      <value>Conn_01x02</value>
-      <footprint>Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill0.8mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/IR_RX/" tstamps="/5CC074C0/"/>
-      <tstamp>5CC27F6C</tstamp>
-    </comp>
-    <comp ref="J15">
-      <value>Conn_01x03</value>
-      <footprint>Connector_Wire:SolderWirePad_1x03_P3.175mm_Drill0.8mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/touch_switch/" tstamps="/5CC074C2/"/>
-      <tstamp>5CC06330</tstamp>
-    </comp>
-    <comp ref="D4">
-      <value>LED_3mm_red</value>
-      <footprint>LED_THT:LED_D3.0mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="LED" description="Light emitting diode"/>
-      <sheetpath names="/touch_switch/" tstamps="/5CC074C2/"/>
-      <tstamp>5CC063D7</tstamp>
-    </comp>
-    <comp ref="J8">
-      <value>Conn_01x04</value>
-      <footprint>Connector_Wire:SolderWirePad_1x04_P3.175mm_Drill0.8mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/touch_switch/" tstamps="/5CC074C2/"/>
-      <tstamp>5CC28BDB</tstamp>
-    </comp>
-    <comp ref="PCB2">
-      <value>TTP223_Touch_sensor</value>
-      <libsource lib="hitesh_custom" part="TTP223_Touch_sensor" description=""/>
-      <sheetpath names="/touch_switch/" tstamps="/5CC074C2/"/>
-      <tstamp>5CC296A0</tstamp>
-    </comp>
-    <comp ref="J16">
-      <value>JST_Female_3pin</value>
-      <libsource lib="hitesh_custom" part="JST_Female_3pin" description=""/>
-      <sheetpath names="/touch_switch/" tstamps="/5CC074C2/"/>
-      <tstamp>5CC29F55</tstamp>
-    </comp>
-    <comp ref="SW1">
-      <value>SW_SPST</value>
-      <footprint>mylib:Detector_SW_2pin_right</footprint>
-      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
-      <sheetpath names="/limit_switch/" tstamps="/5CC074C6/"/>
-      <tstamp>5CC05850</tstamp>
-    </comp>
-    <comp ref="SW2">
-      <value>SW_SPST</value>
-      <footprint>mylib:Detector_SW_2pin_left</footprint>
-      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
-      <sheetpath names="/limit_switch/" tstamps="/5CC074C6/"/>
-      <tstamp>5CC06EC4</tstamp>
-    </comp>
-    <comp ref="J17">
-      <value>Conn_02x02_Top_Bottom</value>
-      <footprint>Connector_Wire:SolderWirePad_2x02_P2.54mm_Drill0.8mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Connector_Generic" part="Conn_02x02_Top_Bottom" description="Generic connector, double row, 02x02, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/limit_switch/" tstamps="/5CC074C6/"/>
-      <tstamp>5CC19B02</tstamp>
-    </comp>
     <comp ref="P2">
       <value>ADC</value>
       <footprint>Socket_Arduino_Pro_Mini:Socket_Strip_Arduino_1x02</footprint>
       <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/motbox_promini/" tstamps="/5CCC7C1B/"/>
+      <sheetpath names="/" tstamps="/"/>
       <tstamp>56D74FB3</tstamp>
     </comp>
     <comp ref="P4">
       <value>ADC</value>
       <footprint>Socket_Arduino_Pro_Mini:Socket_Strip_Arduino_1x02</footprint>
       <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/motbox_promini/" tstamps="/5CCC7C1B/"/>
+      <sheetpath names="/" tstamps="/"/>
       <tstamp>56D7505C</tstamp>
     </comp>
     <comp ref="P3">
       <value>COM</value>
       <footprint>Socket_Arduino_Pro_Mini:Socket_Strip_Arduino_1x06</footprint>
       <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/motbox_promini/" tstamps="/5CCC7C1B/"/>
+      <sheetpath names="/" tstamps="/"/>
       <tstamp>56D75238</tstamp>
     </comp>
     <comp ref="P1">
       <value>Digital</value>
       <footprint>Socket_Arduino_Pro_Mini:Socket_Strip_Arduino_1x12</footprint>
       <libsource lib="Connector_Generic" part="Conn_01x12" description="Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/motbox_promini/" tstamps="/5CCC7C1B/"/>
+      <sheetpath names="/" tstamps="/"/>
       <tstamp>56D754D1</tstamp>
     </comp>
     <comp ref="P5">
       <value>Analog</value>
       <footprint>Socket_Arduino_Pro_Mini:Socket_Strip_Arduino_1x12</footprint>
       <libsource lib="Connector_Generic" part="Conn_01x12" description="Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/motbox_promini/" tstamps="/5CCC7C1B/"/>
+      <sheetpath names="/" tstamps="/"/>
       <tstamp>56D755F3</tstamp>
     </comp>
-    <comp ref="J7">
+    <comp ref="J5">
       <value>OBS IR RX</value>
       <footprint>Connector_JST:JST_EH_B02B-EH-A_1x02_P2.50mm_Vertical</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/motbox_promini/" tstamps="/5CCC7C1B/"/>
+      <sheetpath names="/" tstamps="/"/>
       <tstamp>5CC2F2EA</tstamp>
     </comp>
     <comp ref="U3">
@@ -276,23 +67,23 @@
       <footprint>Package_DIP:DIP-16_W7.62mm</footprint>
       <datasheet>http://www.ti.com/lit/ds/symlink/l293.pdf</datasheet>
       <libsource lib="Driver_Motor" part="L293D" description="Quadruple Half-H Drivers"/>
-      <sheetpath names="/motbox_promini/" tstamps="/5CCC7C1B/"/>
+      <sheetpath names="/" tstamps="/"/>
       <tstamp>5CC2F2F8</tstamp>
     </comp>
-    <comp ref="J20">
+    <comp ref="J7">
       <value>Motor</value>
       <footprint>Connector_JST:JST_EH_B02B-EH-A_1x02_P2.50mm_Vertical</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/motbox_promini/" tstamps="/5CCC7C1B/"/>
+      <sheetpath names="/" tstamps="/"/>
       <tstamp>5CC2F2FF</tstamp>
     </comp>
-    <comp ref="J19">
+    <comp ref="J6">
       <value>Open Close Done</value>
       <footprint>Connector_JST:JST_EH_B04B-EH-A_1x04_P2.50mm_Vertical</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/motbox_promini/" tstamps="/5CCC7C1B/"/>
+      <sheetpath names="/" tstamps="/"/>
       <tstamp>5CC2F306</tstamp>
     </comp>
     <comp ref="C1">
@@ -300,7 +91,7 @@
       <footprint>Capacitor_SMD:CP_Elec_6.3x7.7</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="CP1_Small" description="Polarized capacitor, small US symbol"/>
-      <sheetpath names="/motbox_promini/" tstamps="/5CCC7C1B/"/>
+      <sheetpath names="/" tstamps="/"/>
       <tstamp>5CC2F314</tstamp>
     </comp>
     <comp ref="C2">
@@ -308,7 +99,7 @@
       <footprint>Capacitor_SMD:CP_Elec_10x10</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="CP1_Small" description="Polarized capacitor, small US symbol"/>
-      <sheetpath names="/motbox_promini/" tstamps="/5CCC7C1B/"/>
+      <sheetpath names="/" tstamps="/"/>
       <tstamp>5CC2F31B</tstamp>
     </comp>
     <comp ref="L1">
@@ -316,23 +107,31 @@
       <footprint>Inductor_SMD:L_Bourns_SRN6045TA</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
-      <sheetpath names="/motbox_promini/" tstamps="/5CCC7C1B/"/>
+      <sheetpath names="/" tstamps="/"/>
       <tstamp>5CC2F322</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>LM2575-5.0BU</value>
+      <footprint>Package_TO_SOT_SMD:TO-263-5_TabPin3</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/lm2575.pdf</datasheet>
+      <libsource lib="Regulator_Switching" part="LM2575-5.0BU" description="Fixed 5.0V 52kHz Simple 1A Buck Regulator, TO-263"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CC2F329</tstamp>
     </comp>
     <comp ref="D1">
       <value>1N5822</value>
       <footprint>Diode_THT:D_DO-201AD_P15.24mm_Horizontal</footprint>
       <datasheet>http://www.vishay.com/docs/88526/1n5820.pdf</datasheet>
       <libsource lib="Diode" part="1N5822" description="40V 3A Schottky Barrier Rectifier Diode, DO-201AD"/>
-      <sheetpath names="/motbox_promini/" tstamps="/5CCC7C1B/"/>
+      <sheetpath names="/" tstamps="/"/>
       <tstamp>5CC2F330</tstamp>
     </comp>
-    <comp ref="J3">
+    <comp ref="J1">
       <value>12V IN</value>
       <footprint>Connector_JST:JST_EH_B02B-EH-A_1x02_P2.50mm_Vertical</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/motbox_promini/" tstamps="/5CCC7C1B/"/>
+      <sheetpath names="/" tstamps="/"/>
       <tstamp>5CC2F337</tstamp>
     </comp>
     <comp ref="R2">
@@ -340,15 +139,15 @@
       <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
-      <sheetpath names="/motbox_promini/" tstamps="/5CCC7C1B/"/>
+      <sheetpath names="/" tstamps="/"/>
       <tstamp>5CC2F398</tstamp>
     </comp>
-    <comp ref="J4">
+    <comp ref="J2">
       <value>Manual EN</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/motbox_promini/" tstamps="/5CCC7C1B/"/>
+      <sheetpath names="/" tstamps="/"/>
       <tstamp>5CC2F3B4</tstamp>
     </comp>
     <comp ref="U2">
@@ -356,7 +155,7 @@
       <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
       <datasheet>http://www.ti.com/lit/ds/symlink/lm393-n.pdf</datasheet>
       <libsource lib="Comparator" part="LM393" description="Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/SSOP-8"/>
-      <sheetpath names="/motbox_promini/" tstamps="/5CCC7C1B/"/>
+      <sheetpath names="/" tstamps="/"/>
       <tstamp>5CC2F3CB</tstamp>
     </comp>
     <comp ref="R3">
@@ -364,7 +163,7 @@
       <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
-      <sheetpath names="/motbox_promini/" tstamps="/5CCC7C1B/"/>
+      <sheetpath names="/" tstamps="/"/>
       <tstamp>5CC2F3E0</tstamp>
     </comp>
     <comp ref="R4">
@@ -372,7 +171,7 @@
       <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
-      <sheetpath names="/motbox_promini/" tstamps="/5CCC7C1B/"/>
+      <sheetpath names="/" tstamps="/"/>
       <tstamp>5CC2F3E7</tstamp>
     </comp>
     <comp ref="R6">
@@ -380,7 +179,7 @@
       <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
-      <sheetpath names="/motbox_promini/" tstamps="/5CCC7C1B/"/>
+      <sheetpath names="/" tstamps="/"/>
       <tstamp>5CC2F3EE</tstamp>
     </comp>
     <comp ref="R1">
@@ -388,7 +187,7 @@
       <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
-      <sheetpath names="/motbox_promini/" tstamps="/5CCC7C1B/"/>
+      <sheetpath names="/" tstamps="/"/>
       <tstamp>5CC2F42A</tstamp>
     </comp>
     <comp ref="R8">
@@ -396,7 +195,7 @@
       <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
-      <sheetpath names="/motbox_promini/" tstamps="/5CCC7C1B/"/>
+      <sheetpath names="/" tstamps="/"/>
       <tstamp>5CC2F43E</tstamp>
     </comp>
     <comp ref="R7">
@@ -404,23 +203,23 @@
       <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
-      <sheetpath names="/motbox_promini/" tstamps="/5CCC7C1B/"/>
+      <sheetpath names="/" tstamps="/"/>
       <tstamp>5CC2F445</tstamp>
     </comp>
-    <comp ref="J5">
+    <comp ref="J3">
       <value>OBS_IR_TX</value>
       <footprint>Connector_JST:JST_EH_B02B-EH-A_1x02_P2.50mm_Vertical</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/motbox_promini/" tstamps="/5CCC7C1B/"/>
+      <sheetpath names="/" tstamps="/"/>
       <tstamp>5CC0A08A</tstamp>
     </comp>
-    <comp ref="J6">
+    <comp ref="J4">
       <value>OP_CL_OBS_DET_LED</value>
       <footprint>Connector_JST:JST_EH_B04B-EH-A_1x04_P2.50mm_Vertical</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/motbox_promini/" tstamps="/5CCC7C1B/"/>
+      <sheetpath names="/" tstamps="/"/>
       <tstamp>5CC122C9</tstamp>
     </comp>
     <comp ref="R5">
@@ -428,22 +227,14 @@
       <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
-      <sheetpath names="/motbox_promini/" tstamps="/5CCC7C1B/"/>
+      <sheetpath names="/" tstamps="/"/>
       <tstamp>5CC16176</tstamp>
     </comp>
     <comp ref="PCB1">
       <value>Arduino_Pro_mini</value>
       <libsource lib="hitesh_custom" part="AnyPCB" description=""/>
-      <sheetpath names="/motbox_promini/" tstamps="/5CCC7C1B/"/>
+      <sheetpath names="/" tstamps="/"/>
       <tstamp>5CC0A33D</tstamp>
-    </comp>
-    <comp ref="U1">
-      <value>LM2575-5.0BU</value>
-      <footprint>Package_TO_SOT_SMD:TO-263-5_TabPin3</footprint>
-      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/lm2575.pdf</datasheet>
-      <libsource lib="Regulator_Switching" part="LM2575-5.0BU" description="Fixed 5.0V 52kHz Simple 1A Buck Regulator, TO-263"/>
-      <sheetpath names="/motbox_promini/" tstamps="/5CCC7C1B/"/>
-      <tstamp>5CD4158E</tstamp>
     </comp>
   </components>
   <libparts>
@@ -569,23 +360,6 @@
         <pin num="12" name="Pin_12" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Connector_Generic" part="Conn_02x02_Top_Bottom">
-      <description>Generic connector, double row, 02x02, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>Connector*:*_2x??_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">Conn_02x02_Top_Bottom</field>
-      </fields>
-      <pins>
-        <pin num="1" name="Pin_1" type="passive"/>
-        <pin num="2" name="Pin_2" type="passive"/>
-        <pin num="3" name="Pin_3" type="passive"/>
-        <pin num="4" name="Pin_4" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="Device" part="CP1_Small">
       <description>Polarized capacitor, small US symbol</description>
       <docs>~</docs>
@@ -599,35 +373,6 @@
       <pins>
         <pin num="1" name="~" type="passive"/>
         <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Device" part="D_Photo">
-      <description>Photodiode</description>
-      <docs>~</docs>
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">D_Photo</field>
-      </fields>
-      <pins>
-        <pin num="1" name="K" type="passive"/>
-        <pin num="2" name="A" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Device" part="LED">
-      <description>Light emitting diode</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>LED*</fp>
-        <fp>LED_SMD:*</fp>
-        <fp>LED_THT:*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">LED</field>
-      </fields>
-      <pins>
-        <pin num="1" name="K" type="passive"/>
-        <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Device" part="L_Small">
@@ -756,57 +501,10 @@
         <pin num="5" name="~ON~/OFF" type="input"/>
       </pins>
     </libpart>
-    <libpart lib="Switch" part="SW_SPST">
-      <description>Single Pole Single Throw (SPST) switch</description>
-      <fields>
-        <field name="Reference">SW</field>
-        <field name="Value">SW_SPST</field>
-      </fields>
-      <pins>
-        <pin num="1" name="A" type="passive"/>
-        <pin num="2" name="B" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="hitesh_custom" part="AnyPCB">
       <fields>
         <field name="Reference">PCB</field>
         <field name="Value">AnyPCB</field>
-      </fields>
-    </libpart>
-    <libpart lib="hitesh_custom" part="JST_Female_2pin">
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">JST_Female_2pin</field>
-      </fields>
-    </libpart>
-    <libpart lib="hitesh_custom" part="JST_Female_3pin">
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">JST_Female_3pin</field>
-      </fields>
-    </libpart>
-    <libpart lib="hitesh_custom" part="JST_Female_4pin">
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">JST_Female_4pin</field>
-      </fields>
-    </libpart>
-    <libpart lib="hitesh_custom" part="Motor">
-      <fields>
-        <field name="Reference">M</field>
-        <field name="Value">Motor</field>
-      </fields>
-    </libpart>
-    <libpart lib="hitesh_custom" part="SMPS">
-      <fields>
-        <field name="Reference">PWR</field>
-        <field name="Value">SMPS</field>
-      </fields>
-    </libpart>
-    <libpart lib="hitesh_custom" part="TTP223_Touch_sensor">
-      <fields>
-        <field name="Reference">PCB</field>
-        <field name="Value">TTP223_Touch_sensor</field>
       </fields>
     </libpart>
   </libparts>
@@ -829,246 +527,194 @@
     <library logical="Regulator_Switching">
       <uri>/usr/share/kicad/library/Regulator_Switching.lib</uri>
     </library>
-    <library logical="Switch">
-      <uri>/usr/share/kicad/library/Switch.lib</uri>
-    </library>
     <library logical="hitesh_custom">
       <uri>/home/hitesh/KICAD/mylib/hitesh_custom.lib</uri>
     </library>
   </libraries>
   <nets>
-    <net code="1" name="Net-(D2-Pad2)">
-      <node ref="J14" pin="1"/>
-      <node ref="D2" pin="2"/>
-    </net>
-    <net code="2" name="Net-(D2-Pad1)">
-      <node ref="J14" pin="2"/>
-      <node ref="D2" pin="1"/>
-    </net>
-    <net code="3" name="Net-(D3-Pad1)">
-      <node ref="J18" pin="2"/>
-      <node ref="D3" pin="1"/>
-    </net>
-    <net code="4" name="Net-(D3-Pad2)">
-      <node ref="D3" pin="2"/>
-      <node ref="J18" pin="1"/>
-    </net>
-    <net code="5" name="Net-(J15-Pad2)">
-      <node ref="J8" pin="2"/>
-      <node ref="J15" pin="2"/>
-    </net>
-    <net code="6" name="Net-(J15-Pad3)">
-      <node ref="J8" pin="3"/>
-      <node ref="J15" pin="3"/>
-    </net>
-    <net code="7" name="Net-(D4-Pad1)">
-      <node ref="J8" pin="1"/>
-      <node ref="D4" pin="1"/>
-      <node ref="J15" pin="1"/>
-    </net>
-    <net code="8" name="Net-(D4-Pad2)">
-      <node ref="D4" pin="2"/>
-      <node ref="J8" pin="4"/>
-    </net>
-    <net code="9" name="Net-(J17-Pad3)">
-      <node ref="J17" pin="3"/>
-      <node ref="SW2" pin="2"/>
-    </net>
-    <net code="10" name="Net-(J17-Pad4)">
-      <node ref="SW2" pin="1"/>
-      <node ref="J17" pin="4"/>
-    </net>
-    <net code="11" name="Net-(J17-Pad2)">
-      <node ref="SW1" pin="2"/>
-      <node ref="J17" pin="2"/>
-    </net>
-    <net code="12" name="Net-(J17-Pad1)">
-      <node ref="J17" pin="1"/>
-      <node ref="SW1" pin="1"/>
-    </net>
-    <net code="13" name="/motbox_promini/10">
-      <node ref="J4" pin="2"/>
-      <node ref="P5" pin="12"/>
-    </net>
-    <net code="14" name="Net-(U2-Pad7)">
-      <node ref="U2" pin="7"/>
-    </net>
-    <net code="15" name="Net-(R3-Pad2)">
-      <node ref="R3" pin="2"/>
+    <net code="1" name="Net-(R3-Pad2)">
       <node ref="U2" pin="2"/>
       <node ref="R4" pin="1"/>
+      <node ref="R3" pin="2"/>
     </net>
-    <net code="16" name="/motbox_promini/4">
-      <node ref="U2" pin="1"/>
-      <node ref="R6" pin="2"/>
-      <node ref="P1" pin="7"/>
+    <net code="2" name="Net-(U2-Pad7)">
+      <node ref="U2" pin="7"/>
     </net>
-    <net code="17" name="Net-(J7-Pad2)">
-      <node ref="J7" pin="2"/>
-      <node ref="R1" pin="2"/>
-      <node ref="U2" pin="3"/>
+    <net code="3" name="/10">
+      <node ref="J2" pin="2"/>
+      <node ref="P5" pin="12"/>
     </net>
-    <net code="18" name="+5V">
-      <node ref="L1" pin="2"/>
+    <net code="4" name="GND">
+      <node ref="U2" pin="6"/>
+      <node ref="R7" pin="2"/>
+      <node ref="R8" pin="2"/>
+      <node ref="P5" pin="2"/>
+      <node ref="P1" pin="4"/>
+      <node ref="P3" pin="6"/>
+      <node ref="J5" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U3" pin="9"/>
+      <node ref="U3" pin="5"/>
+      <node ref="U3" pin="4"/>
+      <node ref="U3" pin="13"/>
+      <node ref="U3" pin="12"/>
+      <node ref="P3" pin="5"/>
+      <node ref="J1" pin="1"/>
+      <node ref="D1" pin="2"/>
+      <node ref="U1" pin="5"/>
+      <node ref="U1" pin="3"/>
+      <node ref="C2" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="J4" pin="1"/>
+      <node ref="U2" pin="4"/>
+      <node ref="U2" pin="5"/>
+      <node ref="J3" pin="1"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="5" name="+5V">
+      <node ref="J2" pin="3"/>
+      <node ref="P3" pin="4"/>
       <node ref="U1" pin="4"/>
+      <node ref="L1" pin="2"/>
       <node ref="P5" pin="4"/>
       <node ref="C2" pin="1"/>
-      <node ref="J4" pin="3"/>
-      <node ref="R1" pin="1"/>
-      <node ref="P3" pin="4"/>
-      <node ref="J19" pin="2"/>
-      <node ref="J19" pin="4"/>
       <node ref="U3" pin="16"/>
-      <node ref="U2" pin="8"/>
       <node ref="R3" pin="1"/>
+      <node ref="J6" pin="4"/>
+      <node ref="J6" pin="2"/>
       <node ref="R6" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="U2" pin="8"/>
     </net>
-    <net code="19" name="Net-(J20-Pad1)">
-      <node ref="U3" pin="3"/>
-      <node ref="J20" pin="1"/>
+    <net code="6" name="Net-(J5-Pad2)">
+      <node ref="J5" pin="2"/>
+      <node ref="U2" pin="3"/>
+      <node ref="R1" pin="2"/>
     </net>
-    <net code="20" name="/motbox_promini/6">
+    <net code="7" name="/6">
       <node ref="P1" pin="9"/>
       <node ref="U3" pin="2"/>
     </net>
-    <net code="21" name="/motbox_promini/3">
+    <net code="8" name="/3">
       <node ref="U3" pin="7"/>
       <node ref="P1" pin="6"/>
     </net>
-    <net code="22" name="/motbox_promini/2">
+    <net code="9" name="/2">
       <node ref="U3" pin="1"/>
       <node ref="P1" pin="5"/>
     </net>
-    <net code="23" name="Net-(J20-Pad2)">
+    <net code="10" name="Net-(J7-Pad2)">
+      <node ref="J7" pin="2"/>
       <node ref="U3" pin="6"/>
-      <node ref="J20" pin="2"/>
     </net>
-    <net code="24" name="+12V">
-      <node ref="U3" pin="8"/>
-      <node ref="U1" pin="1"/>
-      <node ref="J3" pin="2"/>
-      <node ref="C1" pin="1"/>
-    </net>
-    <net code="25" name="GND">
-      <node ref="U3" pin="13"/>
+    <net code="11" name="Net-(J7-Pad1)">
+      <node ref="U3" pin="3"/>
       <node ref="J7" pin="1"/>
-      <node ref="P1" pin="4"/>
-      <node ref="C1" pin="2"/>
-      <node ref="P5" pin="2"/>
-      <node ref="U3" pin="12"/>
-      <node ref="P3" pin="5"/>
-      <node ref="U3" pin="9"/>
-      <node ref="P3" pin="6"/>
-      <node ref="J3" pin="1"/>
-      <node ref="U3" pin="5"/>
-      <node ref="U3" pin="4"/>
-      <node ref="D1" pin="2"/>
-      <node ref="C2" pin="2"/>
-      <node ref="J6" pin="1"/>
-      <node ref="J5" pin="1"/>
-      <node ref="U1" pin="3"/>
-      <node ref="R4" pin="2"/>
-      <node ref="U2" pin="4"/>
-      <node ref="U2" pin="6"/>
-      <node ref="U2" pin="5"/>
-      <node ref="U1" pin="5"/>
-      <node ref="J4" pin="1"/>
-      <node ref="R8" pin="2"/>
-      <node ref="R7" pin="2"/>
     </net>
-    <net code="26" name="/motbox_promini/11">
-      <node ref="R2" pin="1"/>
+    <net code="12" name="+12V">
+      <node ref="U1" pin="1"/>
+      <node ref="J1" pin="2"/>
+      <node ref="C1" pin="1"/>
+      <node ref="U3" pin="8"/>
+    </net>
+    <net code="13" name="/11">
       <node ref="P5" pin="11"/>
+      <node ref="R2" pin="1"/>
     </net>
-    <net code="27" name="Net-(J5-Pad2)">
+    <net code="14" name="Net-(J3-Pad2)">
       <node ref="R2" pin="2"/>
-      <node ref="J5" pin="2"/>
+      <node ref="J3" pin="2"/>
     </net>
-    <net code="28" name="/motbox_promini/12">
-      <node ref="R5" pin="1"/>
-      <node ref="P5" pin="10"/>
-    </net>
-    <net code="29" name="Net-(J6-Pad4)">
+    <net code="15" name="Net-(J4-Pad4)">
+      <node ref="J4" pin="4"/>
       <node ref="R5" pin="2"/>
-      <node ref="J6" pin="4"/>
     </net>
-    <net code="30" name="/motbox_promini/13">
-      <node ref="J6" pin="3"/>
+    <net code="16" name="/13">
+      <node ref="J4" pin="3"/>
       <node ref="P5" pin="9"/>
     </net>
-    <net code="31" name="/motbox_promini/7">
+    <net code="17" name="/7">
       <node ref="P1" pin="10"/>
+      <node ref="J6" pin="1"/>
       <node ref="R7" pin="1"/>
-      <node ref="J19" pin="1"/>
     </net>
-    <net code="32" name="/motbox_promini/8">
-      <node ref="J19" pin="3"/>
+    <net code="18" name="/8">
       <node ref="P1" pin="11"/>
+      <node ref="J6" pin="3"/>
       <node ref="R8" pin="1"/>
     </net>
-    <net code="33" name="Net-(U3-Pad14)">
+    <net code="19" name="Net-(U3-Pad14)">
       <node ref="U3" pin="14"/>
     </net>
-    <net code="34" name="Net-(U3-Pad11)">
+    <net code="20" name="Net-(U3-Pad11)">
       <node ref="U3" pin="11"/>
     </net>
-    <net code="35" name="Net-(U3-Pad15)">
+    <net code="21" name="Net-(U3-Pad15)">
       <node ref="U3" pin="15"/>
     </net>
-    <net code="36" name="Net-(U3-Pad10)">
+    <net code="22" name="Net-(U3-Pad10)">
       <node ref="U3" pin="10"/>
     </net>
-    <net code="37" name="/motbox_promini/5">
-      <node ref="P1" pin="12"/>
-      <node ref="P1" pin="8"/>
-      <node ref="J6" pin="2"/>
+    <net code="23" name="/12">
+      <node ref="P5" pin="10"/>
+      <node ref="R5" pin="1"/>
     </net>
-    <net code="38" name="/motbox_promini/RAW">
+    <net code="24" name="/4">
+      <node ref="U2" pin="1"/>
+      <node ref="P1" pin="7"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="25" name="/5">
+      <node ref="P1" pin="8"/>
+      <node ref="P1" pin="12"/>
+      <node ref="J4" pin="2"/>
+    </net>
+    <net code="26" name="/RAW">
       <node ref="P5" pin="1"/>
     </net>
-    <net code="39" name="/motbox_promini/0(Rx)">
+    <net code="27" name="/0(Rx)">
       <node ref="P3" pin="3"/>
       <node ref="P1" pin="2"/>
     </net>
-    <net code="40" name="/motbox_promini/1(Tx)">
-      <node ref="P1" pin="1"/>
+    <net code="28" name="/1(Tx)">
       <node ref="P3" pin="2"/>
+      <node ref="P1" pin="1"/>
     </net>
-    <net code="41" name="/motbox_promini/A1">
-      <node ref="P5" pin="7"/>
-    </net>
-    <net code="42" name="/motbox_promini/A0">
-      <node ref="P5" pin="8"/>
-    </net>
-    <net code="43" name="/motbox_promini/A2">
+    <net code="29" name="/A2">
       <node ref="P5" pin="6"/>
     </net>
-    <net code="44" name="/motbox_promini/Reset">
+    <net code="30" name="/A1">
+      <node ref="P5" pin="7"/>
+    </net>
+    <net code="31" name="/A0">
+      <node ref="P5" pin="8"/>
+    </net>
+    <net code="32" name="/A3">
+      <node ref="P5" pin="5"/>
+    </net>
+    <net code="33" name="/Reset">
       <node ref="P5" pin="3"/>
       <node ref="P1" pin="3"/>
     </net>
-    <net code="45" name="/motbox_promini/DTR">
+    <net code="34" name="/DTR">
       <node ref="P3" pin="1"/>
     </net>
-    <net code="46" name="/motbox_promini/A6">
+    <net code="35" name="/A6">
       <node ref="P4" pin="2"/>
     </net>
-    <net code="47" name="/motbox_promini/A7">
+    <net code="36" name="/A7">
       <node ref="P4" pin="1"/>
     </net>
-    <net code="48" name="/motbox_promini/A4">
+    <net code="37" name="/A4">
       <node ref="P2" pin="2"/>
     </net>
-    <net code="49" name="/motbox_promini/A5">
+    <net code="38" name="/A5">
       <node ref="P2" pin="1"/>
     </net>
-    <net code="50" name="/motbox_promini/A3">
-      <node ref="P5" pin="5"/>
-    </net>
-    <net code="51" name="Net-(D1-Pad1)">
+    <net code="39" name="Net-(D1-Pad1)">
+      <node ref="L1" pin="1"/>
       <node ref="U1" pin="2"/>
       <node ref="D1" pin="1"/>
-      <node ref="L1" pin="1"/>
     </net>
   </nets>
 </export>
