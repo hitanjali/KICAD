@@ -1,0 +1,27 @@
+Parse the XML file to generate an intermediate file a hash which will have no of pins for every one in the xml
+	Read the XML file and till we get "<libparts>  # Marks the start of the process
+	then read and match   -> <libpart lib=".*" part=".*"> string. 
+		split the string with "part" to get the cmponent name variable. 
+
+		Keep reading further to get the string alias and get the other components with the same number of pins 
+
+			
+	Now keep reading the file further and store n,n-1 lines till the line matches "</pins>" 
+	     split the n-1 line with num= and get the number of pins
+		
+	else if the line matches with "<libpart>" 
+		then the component does not have pins 
+
+
+         Read the file till we get the line as "</libparts>" # Marking end of the process
+
+
+Parse the BOM csv 
+cmp_name = Get the Cmp Name filed for the component 
+Read the intermediate file and get number of pins for it. And write the LC BOM file. 
+
+else 
+	do not write in LC BOM 
+	write another report file whichc has part with no pins found
+
+
