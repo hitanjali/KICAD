@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/hitesh/KICAD/projects/MOTBOX_TOP/touch_switch/touch_switch.sch</source>
-    <date>Fri May 10 11:53:04 2019</date>
+    <date>Wed Jun  5 13:54:33 2019</date>
     <tool>Eeschema 5.0.2-bee76a0~70~ubuntu18.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -50,8 +50,8 @@
       <tstamp>5CC296A0</tstamp>
     </comp>
     <comp ref="J3">
-      <value>JST_Female_3pin</value>
-      <libsource lib="hitesh_custom" part="JST_Female_3pin" description=""/>
+      <value>Wires_to_connect</value>
+      <libsource lib="hitesh_custom" part="JST_Female_3pin" description="JST Female connector - 1x3 pin 2.54mm pitch with 15mm of wire"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CC29F55</tstamp>
     </comp>
@@ -108,6 +108,7 @@
       </pins>
     </libpart>
     <libpart lib="hitesh_custom" part="JST_Female_3pin">
+      <description>JST Female connector - 1x3 pin 2.54mm pitch with 15mm of wire</description>
       <fields>
         <field name="Reference">J</field>
         <field name="Value">JST_Female_3pin</field>

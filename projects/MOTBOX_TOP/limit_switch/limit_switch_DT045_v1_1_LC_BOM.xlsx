@@ -1,0 +1,4 @@
+S.No,Manufacturing Part No,Designator,Quantity,Description(VALUE),Package(CASE),Top/Bottom,Points (No. of Pins),Comments,,
+1,  , "J1, " , "1" , "Conn_01x03" , "Connector_Wire:SolderWirePad_1x03_P3.175mm_Drill0.8mm" , TOP , 3, "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)", , 
+2,  , "SW1, " , "1" , "DT045-R" , "mylib:DT045R_detector_switch_right" , TOP , 2, "Single Pole Single Throw (SPST) switch", , 
+3,  , "SW2, " , "1" , "DT045-L" , "mylib:DT045L_detector_switch_left" , TOP , 2, "Single Pole Single Throw (SPST) switch", , 

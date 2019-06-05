@@ -14,16 +14,12 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Wire Wire Line
-	4650 3100 5200 3100
-Wire Wire Line
-	4650 3200 5200 3200
 $Comp
 L Connector_Generic:Conn_01x03 J1
 U 1 1 5CC06330
 P 5400 3200
-F 0 "J1" H 5480 3242 50  0000 L CNN
-F 1 "Conn_01x03" H 5480 3151 50  0000 L CNN
+F 0 "J1" H 5350 3400 50  0000 L CNN
+F 1 "Conn_01x03" H 5300 2950 50  0000 L CNN
 F 2 "Connector_Wire:SolderWirePad_1x03_P3.175mm_Drill0.8mm" H 5400 3200 50  0001 C CNN
 F 3 "~" H 5400 3200 50  0001 C CNN
 	1    5400 3200
@@ -56,10 +52,7 @@ Wire Wire Line
 Wire Wire Line
 	4650 3000 4700 3000
 Wire Wire Line
-	5000 3000 5000 3300
-Connection ~ 5000 3300
-Wire Wire Line
-	5000 3300 5200 3300
+	5000 3000 5000 3100
 $Comp
 L hitesh_custom:TTP223_Touch_sensor PCB1
 U 1 1 5CC296A0
@@ -76,10 +69,25 @@ L hitesh_custom:JST_Female_3pin J3
 U 1 1 5CC29F55
 P 5500 3200
 F 0 "J3" H 5808 3296 50  0000 L CNN
-F 1 "JST_Female_3pin" H 5808 3205 50  0000 L CNN
+F 1 "JST_XH_Female_3pin" H 5550 3450 50  0000 L CNN
 F 2 "" H 5500 3200 50  0001 C CNN
 F 3 "" H 5500 3200 50  0001 C CNN
 	1    5500 3200
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5000 3100 5200 3100
+Connection ~ 5000 3100
+Wire Wire Line
+	5000 3100 5000 3300
+Wire Wire Line
+	4650 3100 4850 3100
+Wire Wire Line
+	4850 3100 4850 3250
+Wire Wire Line
+	4850 3250 5200 3250
+Wire Wire Line
+	5200 3250 5200 3300
+Wire Wire Line
+	4650 3200 5200 3200
 $EndSCHEMATC

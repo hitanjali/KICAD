@@ -2,8 +2,8 @@
 
   (general
     (thickness 1.6)
-    (drawings 4)
-    (tracks 11)
+    (drawings 5)
+    (tracks 14)
     (zones 0)
     (modules 3)
     (nets 5)
@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 1)
+    (last_trace_width 0.5)
     (trace_clearance 0.5)
     (zone_clearance 0.508)
     (zone_45_only no)
@@ -63,7 +63,7 @@
     (visible_elements FFFFFF7F)
     (pcbplotparams
       (layerselection 0x010fc_ffffffff)
-      (usegerberextensions false)
+      (usegerberextensions true)
       (usegerberattributes false)
       (usegerberadvancedattributes false)
       (creategerberjobfile false)
@@ -85,9 +85,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory "Gerber/"))
   )
 
   (net 0 "")
@@ -98,7 +98,7 @@
 
   (net_class Default "This is the default net class."
     (clearance 0.5)
-    (trace_width 1)
+    (trace_width 0.5)
     (via_dia 0.8)
     (via_drill 0.4)
     (uvia_dia 0.3)
@@ -109,14 +109,14 @@
     (add_net "Net-(J1-Pad4)")
   )
 
-  (module mylib:Detector_SW_2pin_left (layer F.Cu) (tedit 5CC1920E) (tstamp 5CC196C3)
+  (module mylib:Detector_SW_2pin_left (layer F.Cu) (tedit 5CF124C3) (tstamp 5CC196C3)
     (at 164.7 76 270)
     (path /5CC06EC4)
     (attr smd)
     (fp_text reference SW1 (at -3.25 0.5) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value SW_SPST (at -0.5 -4.5 270) (layer F.Fab) hide
+    (fp_text value ESE31R11T (at -0.5 -4.5 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 0 -1.25) (end 1.75 -1.25) (layer F.Fab) (width 0.15))
@@ -160,7 +160,7 @@
     (fp_text reference SW2 (at 3.25 0.8 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value SW_SPST (at -0.5 -4.5 90) (layer F.Fab) hide
+    (fp_text value ESE31L11T (at -0.5 -4.5 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user REF** (at 0.1 -0.7 90) (layer F.Fab)
@@ -226,21 +226,27 @@
       (net 4 "Net-(J1-Pad2)"))
   )
 
+  (gr_text "Need to change the foot print of Det switch" (at 166.3 88.5) (layer Cmts.User)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
   (gr_line (start 156 85) (end 156 73) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 166 85) (end 156 85) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 166 73) (end 166 85) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 156 73) (end 166 73) (layer Edge.Cuts) (width 0.15))
 
-  (segment (start 163.453492 83) (end 162.04 83) (width 1) (layer F.Cu) (net 1))
-  (segment (start 164.7 81.753492) (end 163.453492 83) (width 1) (layer F.Cu) (net 1))
-  (segment (start 164.7 77.825) (end 164.7 81.753492) (width 1) (layer F.Cu) (net 1))
+  (segment (start 164.7 80.34) (end 162.04 83) (width 0.5) (layer F.Cu) (net 1))
+  (segment (start 164.7 77.825) (end 164.7 80.34) (width 0.5) (layer F.Cu) (net 1))
   (segment (start 164.7 74.175) (end 164.625 74.175) (width 0.25) (layer F.Cu) (net 2))
-  (segment (start 162.04 76.835) (end 162.04 80.46) (width 1) (layer F.Cu) (net 2))
-  (segment (start 164.7 74.175) (end 162.04 76.835) (width 1) (layer F.Cu) (net 2))
-  (segment (start 157.50051 83) (end 159.5 83) (width 1) (layer F.Cu) (net 3))
-  (segment (start 157.3 82.79949) (end 157.50051 83) (width 1) (layer F.Cu) (net 3))
-  (segment (start 157.3 77.925) (end 157.3 82.79949) (width 1) (layer F.Cu) (net 3))
-  (segment (start 159.5 76.475) (end 159.5 80.46) (width 1) (layer F.Cu) (net 4))
-  (segment (start 157.3 74.275) (end 159.5 76.475) (width 1) (layer F.Cu) (net 4))
+  (segment (start 162.04 77.76) (end 162.04 79.046508) (width 0.5) (layer F.Cu) (net 2))
+  (segment (start 164.7 75.1) (end 162.04 77.76) (width 0.5) (layer F.Cu) (net 2))
+  (segment (start 162.04 79.046508) (end 162.04 80.46) (width 0.5) (layer F.Cu) (net 2))
+  (segment (start 164.7 74.175) (end 164.7 75.1) (width 0.5) (layer F.Cu) (net 2))
+  (segment (start 158.00051 83) (end 159.5 83) (width 0.5) (layer F.Cu) (net 3))
+  (segment (start 157.3 82.29949) (end 158.00051 83) (width 0.5) (layer F.Cu) (net 3))
+  (segment (start 157.3 77.925) (end 157.3 82.29949) (width 0.5) (layer F.Cu) (net 3))
+  (segment (start 159.5 79.046508) (end 159.5 80.46) (width 0.5) (layer F.Cu) (net 4))
+  (segment (start 159.5 77.4) (end 159.5 79.046508) (width 0.5) (layer F.Cu) (net 4))
+  (segment (start 157.3 75.2) (end 159.5 77.4) (width 0.5) (layer F.Cu) (net 4))
+  (segment (start 157.3 74.275) (end 157.3 75.2) (width 0.5) (layer F.Cu) (net 4))
 
 )

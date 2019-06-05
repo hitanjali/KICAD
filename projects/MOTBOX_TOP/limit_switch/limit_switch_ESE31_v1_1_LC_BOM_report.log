@@ -1,0 +1,52 @@
+================================================================================
+Path of the xml file : /home/hitesh/KICAD/projects/MOTBOX_TOP/limit_switch/limit_switch_ESE31_v1_1.xml
+Path of the report file : /home/hitesh/KICAD/projects/MOTBOX_TOP/limit_switch/limit_switch_ESE31_v1_1_LC_BOM_report.log
+Path of the cvs file : /home/hitesh/KICAD/projects/MOTBOX_TOP/limit_switch/limit_switch_ESE31_v1_1.csv
+Path of the LC BOM csv file : /home/hitesh/KICAD/projects/MOTBOX_TOP/limit_switch/limit_switch_ESE31_v1_1_LC_BOM.csv
+Path of the LC BOM XLS file : /home/hitesh/KICAD/projects/MOTBOX_TOP/limit_switch/limit_switch_ESE31_v1_1_LC_BOM.xlsx
+================================================================================
+================================================================================
+Lib parts parsing : Started
+================================================================================
+
+Component : Conn_01x03
+Num of pins : 3
+
+Component : SW_SPST
+Num of pins : 2
+
+================================================================================
+Lib parts parssing : finished
+================================================================================
+
+
+================================================================================
+Preparing lc bom from the csv bom
+================================================================================
+Designator : "J1, "
+Quantity : "1"
+Value : "Conn_01x03"
+Comp name : Conn_01x03
+Package : "Connector_Wire:SolderWirePad_1x03_P3.175mm_Drill0.8mm"
+Comments : "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+# of pins : 3
+-------------------------------------
+
+Designator : "SW1, "
+Quantity : "1"
+Value : "ESE31R11T"
+Comp name : SW_SPST
+Package : "mylib:ESE31R11T_Detector_SW_2pin_right"
+Comments : "Single Pole Single Throw (SPST) switch"
+# of pins : 2
+-------------------------------------
+
+Designator : "SW2, "
+Quantity : "1"
+Value : "ESE31L11T"
+Comp name : SW_SPST
+Package : "mylib:ESE31L11T_Detector_SW_2pin_left"
+Comments : "Single Pole Single Throw (SPST) switch"
+# of pins : 2
+-------------------------------------
+

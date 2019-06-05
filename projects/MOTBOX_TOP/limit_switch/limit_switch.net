@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/hitesh/KICAD/projects/MOTBOX_TOP/limit_switch/limit_switch.sch)
-    (date "Thu Apr 25 16:51:36 2019")
+    (date "Mon Jun  3 16:26:48 2019")
     (tool "Eeschema 5.0.2-bee76a0~70~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -16,14 +16,14 @@
         (comment (number 4) (value "")))))
   (components
     (comp (ref SW2)
-      (value SW_SPST)
-      (footprint mylib:Detector_SW_2pin_right)
+      (value ESE31L11T)
+      (footprint mylib:ESE58L11T_Detector_SW_2pin_left)
       (libsource (lib Switch) (part SW_SPST) (description "Single Pole Single Throw (SPST) switch"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5CC05850))
     (comp (ref SW1)
-      (value SW_SPST)
-      (footprint mylib:Detector_SW_2pin_left)
+      (value ESE31R11T)
+      (footprint mylib:ESE58L11T_Detector_SW_2pin_left)
       (libsource (lib Switch) (part SW_SPST) (description "Single Pole Single Throw (SPST) switch"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5CC06EC4))

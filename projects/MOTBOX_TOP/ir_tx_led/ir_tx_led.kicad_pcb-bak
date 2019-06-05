@@ -3,7 +3,7 @@
   (general
     (thickness 1.6)
     (drawings 5)
-    (tracks 0)
+    (tracks 4)
     (zones 0)
     (modules 2)
     (nets 3)
@@ -62,8 +62,8 @@
     (aux_axis_origin 0 0)
     (visible_elements FFF9FF7F)
     (pcbplotparams
-      (layerselection 0x010fc_ffffffff)
-      (usegerberextensions false)
+      (layerselection 0x010fc_fffffffe)
+      (usegerberextensions true)
       (usegerberattributes false)
       (usegerberadvancedattributes false)
       (creategerberjobfile false)
@@ -85,9 +85,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory "Gerber/"))
   )
 
   (net 0 "")
@@ -113,7 +113,7 @@
     (fp_text reference D1 (at 1.27 -1.96 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value LED (at 1.27 16.01 90) (layer F.Fab)
+    (fp_text value IR333-A (at 1.27 16.01 90) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_arc (start 1.27 12.45) (end -1.23 12.45) (angle -180) (layer F.Fab) (width 0.1))
@@ -193,5 +193,10 @@
   (gr_line (start 136 82) (end 136 74) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 128 82) (end 136 82) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 128 74) (end 128 82) (layer Edge.Cuts) (width 0.15))
+
+  (segment (start 132.89 79.91) (end 133.5 79.3) (width 1) (layer B.Cu) (net 1))
+  (segment (start 130 79.91) (end 132.89 79.91) (width 1) (layer B.Cu) (net 1))
+  (segment (start 132.84 76.1) (end 133.5 76.76) (width 1) (layer B.Cu) (net 2))
+  (segment (start 130 76.1) (end 132.84 76.1) (width 1) (layer B.Cu) (net 2))
 
 )

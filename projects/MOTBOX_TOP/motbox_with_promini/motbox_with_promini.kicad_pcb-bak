@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 59)
+    (drawings 61)
     (tracks 274)
     (zones 0)
     (modules 30)
@@ -66,8 +66,8 @@
     (aux_axis_origin 138.176 110.617)
     (visible_elements FFFFFF1F)
     (pcbplotparams
-      (layerselection 0x00030_80000001)
-      (usegerberextensions false)
+      (layerselection 0x010fc_ffffffff)
+      (usegerberextensions true)
       (usegerberattributes false)
       (usegerberadvancedattributes false)
       (creategerberjobfile false)
@@ -89,9 +89,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory "Gerber/"))
   )
 
   (net 0 "")
@@ -1462,6 +1462,8 @@
     (pad 1 thru_hole circle (at 0 0) (size 4.4 4.4) (drill 2.2) (layers *.Cu *.Mask))
   )
 
+  (gr_line (start 105.4 92.9) (end 172.4 37.9) (layer Dwgs.User) (width 0.1))
+  (gr_line (start 105.4 37.9) (end 172.4 92.9) (layer Dwgs.User) (width 0.1))
   (gr_arc (start 138.9 65.4) (end 111.400001 29.800001) (angle -104.6298435) (layer Dwgs.User) (width 0.1))
   (gr_arc (start 138.9 65.4) (end 166.399999 100.999999) (angle -104.6298435) (layer Dwgs.User) (width 0.1))
   (gr_line (start 111.4 29.8) (end 166.4 29.8) (layer Dwgs.User) (width 0.1) (tstamp 5CD110D6))
@@ -1801,7 +1803,7 @@
   (segment (start 161.33 85.730034) (end 161.33 78.83) (width 0.3) (layer B.Cu) (net 24))
   (segment (start 152.110024 94.95001) (end 161.33 85.730034) (width 0.3) (layer B.Cu) (net 24))
 
-  (zone (net 4) (net_name GND) (layer F.Cu) (tstamp 5CD5954D) (hatch edge 0.508)
+  (zone (net 4) (net_name GND) (layer F.Cu) (tstamp 5CD180B1) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -2285,7 +2287,7 @@
       )
     )
   )
-  (zone (net 4) (net_name GND) (layer B.Cu) (tstamp 0) (hatch edge 0.508)
+  (zone (net 4) (net_name GND) (layer B.Cu) (tstamp 5CD180AE) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))

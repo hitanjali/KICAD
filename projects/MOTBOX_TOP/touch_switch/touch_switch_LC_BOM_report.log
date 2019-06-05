@@ -53,10 +53,10 @@ Comments : "Generic connector, single row, 01x04, script generated (kicad-librar
 
 Designator : "J3, "
 Quantity : "1"
-Value : "JST_Female_3pin"
+Value : "Wires_to_connect"
 Comp name : JST_Female_3pin
 Package : ""
-Comments : ""
+Comments : "JST Female connector - 1x3 pin 2.54mm pitch with 15mm of wire"
 -------------------------------------
 WARNINGS : NO PINS : JST_Female_3pin
 -------------------------------------

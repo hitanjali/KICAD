@@ -368,6 +368,14 @@ D Power flag, HT
 K power-flag
 $ENDCMP
 #
+$CMP JST_Female_2pin
+D JST Female connector - 1x2 pin 2.54mm pitch with 15 cms of wire
+$ENDCMP
+#
+$CMP JST_Female_3pin
+D JST Female connector - 1x3 pin 2.54mm pitch with 15mm of wire
+$ENDCMP
+#
 $CMP LINE
 D Power flag, line
 K power-flag

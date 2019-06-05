@@ -1,0 +1,239 @@
+================================================================================
+Path of the xml file : /home/hitesh/KICAD/projects/MOTBOX_TOP/motbox_with_promini/motbox_with_promini_v1_2.xml
+Path of the report file : /home/hitesh/KICAD/projects/MOTBOX_TOP/motbox_with_promini/motbox_with_promini_v1_2_LC_BOM_report.log
+Path of the cvs file : /home/hitesh/KICAD/projects/MOTBOX_TOP/motbox_with_promini/motbox_with_promini_v1_2.csv
+Path of the LC BOM csv file : /home/hitesh/KICAD/projects/MOTBOX_TOP/motbox_with_promini/motbox_with_promini_v1_2_LC_BOM.csv
+Path of the LC BOM XLS file : /home/hitesh/KICAD/projects/MOTBOX_TOP/motbox_with_promini/motbox_with_promini_v1_2_LC_BOM.xlsx
+================================================================================
+================================================================================
+Lib parts parsing : Started
+================================================================================
+
+Component : LM2903
+Alias comp : LM393
+Alias comp : LMV393
+Alias comp : MCP6562
+Alias comp : MCP6567
+Num of pins : 8
+
+Component : Conn_01x02
+Num of pins : 2
+
+Component : Conn_01x03
+Num of pins : 3
+
+Component : Conn_01x04
+Num of pins : 4
+
+Component : Conn_01x06
+Num of pins : 6
+
+Component : Conn_01x12
+Num of pins : 12
+
+Component : CP1_Small
+Num of pins : 2
+
+Component : D_Schottky
+Num of pins : 2
+
+Component : L_Small
+Num of pins : 2
+
+Component : R_US
+Num of pins : 2
+
+Component : L293
+Alias comp : L293D
+Num of pins : 16
+
+Component : LM2576
+Alias comp : LM2576HVS-3.3
+Alias comp : LM2576HVS-5
+Alias comp : LM2576HVS-15
+Alias comp : LM2576HVS-ADJ
+Alias comp : LM2576S-12
+Alias comp : LM2576S-3.3
+Alias comp : LM2576S-5
+Alias comp : LM2576S-15
+Alias comp : LM2576S-ADJ
+Alias comp : LM2575BU-ADJ
+Alias comp : LM2575-3.3BU
+Alias comp : LM2575-5.0BU
+Alias comp : LM2575-12BU
+Alias comp : GL2576-3.3TA5R
+Alias comp : GL2576-5.0TA5R
+Alias comp : GL2576-12TA5R
+Alias comp : GL2576-15TA5R
+Alias comp : GL2576-ATA5R
+Num of pins : 5
+
+Component : AnyPCB
+
+
+================================================================================
+Preparing lc bom from the csv bom
+================================================================================
+Designator : "C1, "
+Quantity : "1"
+Value : "100uF,25V"
+Comp name : CP1_Small
+Package : "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
+Comments : "Polarized capacitor, small US symbol"
+# of pins : 2
+-------------------------------------
+
+Designator : "C2, "
+Quantity : "1"
+Value : "1000uF,16V"
+Comp name : CP1_Small
+Package : "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+Comments : "Polarized capacitor, small US symbol"
+# of pins : 2
+-------------------------------------
+
+Designator : "D1, "
+Quantity : "1"
+Value : "SS34"
+Comp name : D_Schottky
+Package : "Diode_SMD:D_SMC"
+Comments : "Schottky diode"
+# of pins : 2
+-------------------------------------
+
+Designator : "J2, "
+Quantity : "1"
+Value : "Header_3pin_Male"
+Comp name : Conn_01x03
+Package : "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+Comments : "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+# of pins : 3
+-------------------------------------
+
+Designator : "J4, "
+Quantity : "1"
+Value : "JST_XH_4pin"
+Comp name : Conn_01x04
+Package : "Connector_JST:JST_XH_B04B-XH-A_1x04_P2.50mm_Vertical"
+Comments : "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+# of pins : 4
+-------------------------------------
+
+Designator : "J5, J7, J1, J3, "
+Quantity : "4"
+Value : "JST_XH_2pin"
+Comp name : Conn_01x02
+Package : "Connector_JST:JST_XH_B02B-XH-A_1x02_P2.50mm_Vertical"
+Comments : "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+# of pins : 2
+-------------------------------------
+
+Designator : "J6, "
+Quantity : "1"
+Value : "JST_XH_3pin"
+Comp name : Conn_01x03
+Package : "Connector_JST:JST_XH_B03B-XH-A_1x03_P2.50mm_Vertical"
+Comments : "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+# of pins : 3
+-------------------------------------
+
+Designator : "L1, "
+Quantity : "1"
+Value : "SRN6045-101M"
+Comp name : L_Small
+Package : "Inductor_SMD:L_Bourns_SRN6045TA"
+Comments : "Inductor, small symbol"
+# of pins : 2
+-------------------------------------
+
+Designator : "P1, P5, "
+Quantity : "2"
+Value : "Female_Header_12pin"
+Comp name : Conn_01x12
+Package : "Socket_Arduino_Pro_Mini:Socket_Strip_Arduino_1x12"
+Comments : "Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)"
+# of pins : 12
+-------------------------------------
+
+Designator : "P3, "
+Quantity : "1"
+Value : "Female_Header_6pin"
+Comp name : Conn_01x06
+Package : "Socket_Arduino_Pro_Mini:Socket_Strip_Arduino_1x06"
+Comments : "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+# of pins : 6
+-------------------------------------
+
+Designator : "PCB1, "
+Quantity : "1"
+Value : "Arduino_Pro_mini_5V_16MHz"
+Comp name : AnyPCB
+Package : ""
+Comments : ""
+-------------------------------------
+WARNINGS : NO PINS : AnyPCB
+-------------------------------------
+
+Designator : "R1, "
+Quantity : "1"
+Value : "60K"
+Comp name : R_US
+Package : "Resistor_SMD:R_1206_3216Metric"
+Comments : "Resistor, US symbol"
+# of pins : 2
+-------------------------------------
+
+Designator : "R2, R5, "
+Quantity : "2"
+Value : "150R"
+Comp name : R_US
+Package : "Resistor_SMD:R_1206_3216Metric"
+Comments : "Resistor, US symbol"
+# of pins : 2
+-------------------------------------
+
+Designator : "R3, R4, R8, R7, "
+Quantity : "4"
+Value : "100K"
+Comp name : R_US
+Package : "Resistor_SMD:R_1206_3216Metric"
+Comments : "Resistor, US symbol"
+# of pins : 2
+-------------------------------------
+
+Designator : "R6, "
+Quantity : "1"
+Value : "10K"
+Comp name : R_US
+Package : "Resistor_SMD:R_1206_3216Metric"
+Comments : "Resistor, US symbol"
+# of pins : 2
+-------------------------------------
+
+Designator : "U1, "
+Quantity : "1"
+Value : "LM2576R-5.0"
+Comp name : LM2576
+Package : "Package_TO_SOT_SMD:TO-263-5_TabPin3"
+Comments : "12V, 3A SIMPLE SWITCHER® Step-Down Voltage Regulator, High Voltage Input, TO-263"
+# of pins : 5
+-------------------------------------
+
+Designator : "U2, "
+Quantity : "1"
+Value : "LM393"
+Comp name : LM393
+Package : "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+Comments : "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/SSOP-8"
+# of pins : 8
+-------------------------------------
+
+Designator : "U3, "
+Quantity : "1"
+Value : "L293D"
+Comp name : L293D
+Package : "Package_DIP:DIP-16_W7.62mm"
+Comments : "Quadruple Half-H Drivers"
+# of pins : 16
+-------------------------------------
+

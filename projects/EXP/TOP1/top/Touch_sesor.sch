@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
 LIBS:top-cache
-LIBS:pcb1-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -27,9 +26,11 @@ F 3 "~" H 2950 2300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L hitesh_custom:TouchSensor PCB1
+L top-rescue:TouchSensor-hitesh_custom PCB1
 U 1 1 5CC05BAC
 P 3700 1950
+AR Path="/5CC05BAC" Ref="PCB1"  Part="1" 
+AR Path="/5CC0853C/5CC05BAC" Ref="PCB1"  Part="1" 
 F 0 "PCB1" V 3864 1922 50  0000 R CNN
 F 1 "TouchSensor" V 3773 1922 50  0000 R CNN
 F 2 "" H 3700 1950 50  0001 C CNN

@@ -318,7 +318,7 @@ P 1450 7150
 AR Path="/5CC16294/5CC2F314" Ref="C?"  Part="1" 
 AR Path="/5CC2F314" Ref="C1"  Part="1" 
 F 0 "C1" H 1541 7196 50  0000 L CNN
-F 1 "100uF" H 1450 7050 50  0000 L CNN
+F 1 "100uF,25V" H 1450 7050 50  0000 L CNN
 F 2 "Capacitor_SMD:CP_Elec_6.3x7.7" H 1450 7150 50  0001 C CNN
 F 3 "~" H 1450 7150 50  0001 C CNN
 	1    1450 7150
@@ -331,7 +331,7 @@ P 3400 7200
 AR Path="/5CC16294/5CC2F31B" Ref="C?"  Part="1" 
 AR Path="/5CC2F31B" Ref="C2"  Part="1" 
 F 0 "C2" H 3491 7246 50  0000 L CNN
-F 1 "1000uF" H 3400 7100 50  0000 L CNN
+F 1 "1000uF,16V" H 3400 7100 50  0000 L CNN
 F 2 "Capacitor_SMD:CP_Elec_10x10" H 3400 7200 50  0001 C CNN
 F 3 "~" H 3400 7200 50  0001 C CNN
 	1    3400 7200
@@ -527,9 +527,9 @@ Wire Wire Line
 Wire Wire Line
 	6000 2000 6000 1900
 Text Label 3950 2200 0    50   ~ 0
-3
-Text Label 3950 2000 0    50   ~ 0
 2
+Text Label 3950 2000 0    50   ~ 0
+3
 Text Label 3950 1800 0    50   ~ 0
 6
 Wire Wire Line
