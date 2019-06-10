@@ -112,6 +112,12 @@ while ( chomp($xLine = <xml> ))
 			while ( chomp($xLine = <xml>)) 
 			{
 				# print "Line in file after libpart : $xLine\n";
+				# If the component is like a mounting hole etc. Then it would not have any pins so exit on </libpart>
+				if ( $xLine =~ m/<\/libpart>/) {
+					print "\nLibpart has no pins : $comp[1]\n";
+					getc;
+					last;
+				}
 				if ( $xLine =~ m/<alias>/)
 				{
 					$all_same_pin_index++;
