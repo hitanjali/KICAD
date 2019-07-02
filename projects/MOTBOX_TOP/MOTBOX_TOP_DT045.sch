@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:MOTBOX_TOP_DT045-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -119,12 +120,6 @@ F 3 "" H 3300 5250 50  0001 C CNN
 	1    3300 5250
 	1    0    0    -1  
 $EndComp
-$Sheet
-S 4700 3000 1500 2000
-U 5CF6A881
-F0 "Motbox_main" 50
-F1 "Motbox_mainsch.sch" 50
-$EndSheet
 $Comp
 L hitesh_custom:JST_Female_3pin J4
 U 1 1 5CF6B4FF
@@ -141,5 +136,11 @@ S 5100 5450 1250 1600
 U 5CF6C3B8
 F0 "limit_switch_DT045" 50
 F1 "limit_switch_DT045.sch" 50
+$EndSheet
+$Sheet
+S 4950 3200 1100 1750
+U 5CFE6C87
+F0 "motbox_main" 50
+F1 "motbox_main.sch" 50
 $EndSheet
 $EndSCHEMATC

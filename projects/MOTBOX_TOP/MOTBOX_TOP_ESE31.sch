@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:MOTBOX_TOP_ESE31-cache
+LIBS:motbox_with_promini_v1_3-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -25,12 +26,6 @@ S 7100 3800 800  1300
 U 5CC074C0
 F0 "IR_RX" 50
 F1 "IR_RX.sch" 50
-$EndSheet
-$Sheet
-S 4850 1100 800  1300
-U 5CC074C2
-F0 "touch_switch" 50
-F1 "touch_switch.sch" 50
 $EndSheet
 $Comp
 L hitesh_custom:Motor M1
@@ -120,12 +115,6 @@ F 3 "" H 3300 5250 50  0001 C CNN
 	1    3300 5250
 	1    0    0    -1  
 $EndComp
-$Sheet
-S 4700 3000 1500 2000
-U 5CF6A881
-F0 "Motbox_main" 50
-F1 "Motbox_mainsch.sch" 50
-$EndSheet
 $Comp
 L hitesh_custom:JST_Female_3pin J4
 U 1 1 5CF6B4FF
@@ -142,5 +131,17 @@ S 5150 5600 1250 1700
 U 5CF67888
 F0 "limit_switch_ESE31" 50
 F1 "limit_switch_ESE31.sch" 50
+$EndSheet
+$Sheet
+S 4200 800  1350 1800
+U 5CFE1655
+F0 "touch_switch" 50
+F1 "touch_switch.sch" 50
+$EndSheet
+$Sheet
+S 4700 3000 1400 2150
+U 5CFE6B0B
+F0 "motbox_main" 50
+F1 "motbox_main.sch" 50
 $EndSheet
 $EndSCHEMATC

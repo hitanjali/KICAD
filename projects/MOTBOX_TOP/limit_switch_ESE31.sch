@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:MOTBOX_TOP_ESE31-cache
+LIBS:motbox_with_promini_v1_3-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -39,10 +40,10 @@ $EndComp
 Text Notes 3000 3250 0    50   ~ 0
 With ESE31 Switches and only 3 pin connector
 $Comp
-L Connector_Generic:Conn_01x03 J13
+L Connector_Generic:Conn_01x03 J10
 U 1 1 5CF632DF
 P 3650 2400
-F 0 "J13" V 3616 2212 50  0000 R CNN
+F 0 "J10" V 3616 2212 50  0000 R CNN
 F 1 "Conn_01x03" V 3525 2212 50  0000 R CNN
 F 2 "Connector_Wire:SolderWirePad_1x03_P3.175mm_Drill0.8mm" H 3650 2400 50  0001 C CNN
 F 3 "~" H 3650 2400 50  0001 C CNN
