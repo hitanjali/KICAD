@@ -921,8 +921,8 @@ Wire Wire Line
 Connection ~ 5000 1300
 Wire Wire Line
 	5000 1300 5000 1400
-Text Notes 7100 6750 0    50   ~ 0
-Version 1.3 : Shifting the Connectors to BOTTOM layer in PCB \nAlso added a field for the connectors as Layers and setting the values as BOT
+Text Notes 7050 6850 0    50   ~ 0
+Version 1.3 : Shifting the Connectors to BOTTOM layer in PCB \nAlso added a field for the connectors as Layers and setting the values as BOT\nVersion 1.4 : Removed P2 [ promini female connector 6 pin] 
 $Comp
 L Regulator_Switching_hitesh:LM2576 U1
 U 1 1 5CF031AA
@@ -1021,55 +1021,4 @@ F 3 "~" H 8050 6150 50  0001 C CNN
 	1    8050 6150
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x06 P2
-U 1 1 56D75238
-P 9750 1250
-F 0 "P2" H 9750 1600 50  0000 C CNN
-F 1 "Female_Header_6pin" V 9850 1150 50  0000 C CNN
-F 2 "Socket_Arduino_Pro_Mini:Socket_Strip_Arduino_1x06" H 9750 1250 50  0001 C CNN
-F 3 "" H 9750 1250 50  0000 C CNN
-F 4 "TOP" H 0   0   50  0001 C CNN "Layer"
-	1    9750 1250
-	0    -1   1    0   
-$EndComp
-Text Label 9550 1050 1    60   ~ 0
-DTR
-Text Label 9750 1050 1    60   ~ 0
-0(Rx)
-Text Label 9650 1050 1    60   ~ 0
-1(Tx)
-$Comp
-L power:GND #PWR019
-U 1 1 56D7539A
-P 10200 1050
-F 0 "#PWR019" H 10200 800 50  0001 C CNN
-F 1 "GND" H 10200 900 50  0000 C CNN
-F 2 "" H 10200 1050 50  0000 C CNN
-F 3 "" H 10200 1050 50  0000 C CNN
-	1    10200 1050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VCC #PWR018
-U 1 1 56D753B8
-P 9850 1050
-F 0 "#PWR018" H 9850 900 50  0001 C CNN
-F 1 "VCC" H 9850 1200 50  0000 C CNN
-F 2 "" H 9850 1050 50  0000 C CNN
-F 3 "" H 9850 1050 50  0000 C CNN
-	1    9850 1050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9950 1050 9950 1000
-Wire Wire Line
-	9950 1000 10050 1000
-Wire Wire Line
-	10050 1000 10050 1050
-Connection ~ 10050 1000
-Wire Wire Line
-	10050 1000 10200 1000
-Wire Wire Line
-	10200 1000 10200 1050
 $EndSCHEMATC
