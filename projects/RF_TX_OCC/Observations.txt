@@ -1,0 +1,21 @@
+========================================================================================================================
+// Current budgeeting : 
+========================================================================================================================
+   || HT12E    || With HC501 sensor || NOT gate*     ||  NOT Gate unused open
+========================================================================================================================
+   ||          ||                   ||               ||            
+Q  || 1uA      || 0.05mA            || 0.02mA        ||  0.7mA     
+Tx || 4.06mA   || 3.92mA            || 4.00mA        ||  4.9mA     
+   ||          ||                   ||               ||            
+========================================================================================================================
+
+CMOS unused nputs : Important point to note is that the unused inputs MUST be grounded otherwise for 
+CMOS there would be huge difference in the quiscent current.
+
+Conclusion : Most of the current is drawn by the Tx of the system. 
+Hence it would be good to design a system with Tx to be limited time as we are anyways latching the contents.
+========================================================================================================================
+// Generating a low TE pulse with the XOR of the delayed version of the Sensor Output with NOT gates
+// Does NOT work perfect as it seems the pulse may be too low in the width
+========================================================================================================================
+
