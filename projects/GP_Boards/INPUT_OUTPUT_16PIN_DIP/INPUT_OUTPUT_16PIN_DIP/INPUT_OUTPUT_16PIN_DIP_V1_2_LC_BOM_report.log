@@ -1,0 +1,166 @@
+================================================================================
+Path of the xml file : /home/hitesh/KICAD/projects/GP_Boards/INPUT_OUTPUT_16PIN_DIP/INPUT_OUTPUT_16PIN_DIP/INPUT_OUTPUT_16PIN_DIP_V1_2.xml
+Path of the report file : /home/hitesh/KICAD/projects/GP_Boards/INPUT_OUTPUT_16PIN_DIP/INPUT_OUTPUT_16PIN_DIP/INPUT_OUTPUT_16PIN_DIP_V1_2_LC_BOM_report.log
+Path of the cvs file : /home/hitesh/KICAD/projects/GP_Boards/INPUT_OUTPUT_16PIN_DIP/INPUT_OUTPUT_16PIN_DIP/INPUT_OUTPUT_16PIN_DIP_V1_2.csv
+Path of the LC BOM csv file : /home/hitesh/KICAD/projects/GP_Boards/INPUT_OUTPUT_16PIN_DIP/INPUT_OUTPUT_16PIN_DIP/INPUT_OUTPUT_16PIN_DIP_V1_2_LC_BOM.csv
+Path of the LC BOM XLS file : /home/hitesh/KICAD/projects/GP_Boards/INPUT_OUTPUT_16PIN_DIP/INPUT_OUTPUT_16PIN_DIP/INPUT_OUTPUT_16PIN_DIP_V1_2_LC_BOM.xlsx
+================================================================================
+================================================================================
+Lib parts parsing : Started
+================================================================================
+
+Component : Conn_01x01
+Num of pins : 1
+
+Component : Conn_01x02
+Num of pins : 2
+
+Component : Conn_01x03
+Num of pins : 3
+
+Component : Conn_01x05
+Num of pins : 5
+
+Component : Conn_01x08
+Num of pins : 8
+
+Component : Conn_02x08_Counter_Clockwise
+Num of pins : 16
+
+Component : LED
+Num of pins : 2
+
+Component : R_POT_TRIM_US
+Num of pins : 3
+
+Component : R_US
+Num of pins : 2
+
+Component : SW_DIP_x08
+Num of pins : 16
+
+================================================================================
+Lib parts parssing : finished
+================================================================================
+
+
+================================================================================
+Preparing lc bom from the csv bom
+================================================================================
+Designator : "D1, D2, D3, D4, D5, D6, D7, D8, D32, D31, D30, D29, D28, D27, D26, D25, "
+Quantity : "16"
+Value : "RED"
+Comp name : LED
+Package : "LED_SMD:LED_0603_1608Metric"
+Comments : "Light emitting diode"
+# of pins : 2
+-------------------------------------
+
+Designator : "D10, D11, D12, D13, D14, D15, D16, D9, D24, D23, D22, D21, D20, D19, D18, D17, "
+Quantity : "16"
+Value : "BLUE"
+Comp name : LED
+Package : "LED_SMD:LED_0603_1608Metric"
+Comments : "Light emitting diode"
+# of pins : 2
+-------------------------------------
+
+Designator : "J2, J4, J17, J19, "
+Quantity : "4"
+Value : "Conn_01x08"
+Comp name : Conn_01x08
+Package : "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
+Comments : "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+# of pins : 8
+-------------------------------------
+
+Designator : "J5, J3, "
+Quantity : "2"
+Value : "Conn_01x01"
+Comp name : Conn_01x01
+Package : "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+Comments : "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+# of pins : 1
+-------------------------------------
+
+Designator : "J7, J35, J1, J6, J8, J21, "
+Quantity : "6"
+Value : "Conn_01x08"
+Comp name : Conn_01x08
+Package : "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
+Comments : "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+# of pins : 8
+-------------------------------------
+
+Designator : "J20, J18, J25, J26, "
+Quantity : "4"
+Value : "Conn_01x02"
+Comp name : Conn_01x02
+Package : "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+Comments : "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+# of pins : 2
+-------------------------------------
+
+Designator : "J24, "
+Quantity : "1"
+Value : "Conn_02x08_Counter_Clockwise"
+Comp name : Conn_02x08_Counter_Clockwise
+Package : "Package_DIP:DIP-16_W7.62mm"
+Comments : "Generic connector, double row, 02x08, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+# of pins : 16
+-------------------------------------
+
+Designator : "J27, J28, J29, J30, J31, J32, J33, J34, J9, J10, J11, J12, J13, J14, J15, J16, J22, J23, "
+Quantity : "18"
+Value : "Conn_01x03"
+Comp name : Conn_01x03
+Package : "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+Comments : "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+# of pins : 3
+-------------------------------------
+
+Designator : "J36, J37, "
+Quantity : "2"
+Value : "Conn_01x05"
+Comp name : Conn_01x05
+Package : "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
+Comments : "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+# of pins : 5
+-------------------------------------
+
+Designator : "R25, R26, R27, R28, R29, R30, R31, R32, R16, R15, R14, R13, R12, R11, R10, R9, R8, R7, R6, R5, R4, R3, R2, R1, R33, R34, R35, R36, R37, R38, R39, R40, "
+Quantity : "32"
+Value : "150"
+Comp name : R_US
+Package : "Resistor_SMD:R_1206_3216Metric"
+Comments : "Resistor, US symbol"
+# of pins : 2
+-------------------------------------
+
+Designator : "R41, R42, R43, R44, R45, R46, R47, R48, R17, R18, R19, R20, R21, R22, R23, R24, "
+Quantity : "16"
+Value : "10K"
+Comp name : R_US
+Package : "Resistor_SMD:R_1206_3216Metric"
+Comments : "Resistor, US symbol"
+# of pins : 2
+-------------------------------------
+
+Designator : "RV1, RV2, "
+Quantity : "2"
+Value : "20K"
+Comp name : R_POT_TRIM_US
+Package : "Potentiometer_THT:Potentiometer_Bourns_3339P_Vertical"
+Comments : "Trim-potentiometer, US symbol"
+# of pins : 3
+-------------------------------------
+
+Designator : "SW2, SW1, "
+Quantity : "2"
+Value : "SW_DIP_x08"
+Comp name : SW_DIP_x08
+Package : "Package_DIP:DIP-16_W7.62mm"
+Comments : "8x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
+# of pins : 16
+-------------------------------------
+
