@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Single_gate_adaptor-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1014,17 +1015,17 @@ Text Label 5725 3820 0    50   ~ 0
 C6
 Text Label 5725 3920 0    50   ~ 0
 C7
-Text Label 5720 4320 0    50   ~ 0
+Text Label 5730 4520 0    50   ~ 0
 C8
 Text Label 5725 4420 0    50   ~ 0
 C9
-Text Label 5725 4520 0    50   ~ 0
+Text Label 5730 4320 0    50   ~ 0
 C10
-Text Label 5725 4915 0    50   ~ 0
+Text Label 5725 5115 0    50   ~ 0
 C11
 Text Label 5725 5015 0    50   ~ 0
 C12
-Text Label 5725 5115 0    50   ~ 0
+Text Label 5725 4915 0    50   ~ 0
 C13
 Text Label 5730 5805 0    50   ~ 0
 C14
@@ -1062,17 +1063,6 @@ Text Label 7445 3970 0    50   ~ 0
 D7
 Text Label 7445 4070 0    50   ~ 0
 D8
-$Comp
-L Connector_Generic:Conn_01x02 J6
-U 1 1 5D64CAE6
-P 10095 5475
-F 0 "J6" H 10175 5467 50  0000 L CNN
-F 1 "Conn_01x02" H 10175 5376 50  0000 L CNN
-F 2 "Connector_JST:JST_XH_B02B-XH-A_1x02_P2.50mm_Vertical" H 10095 5475 50  0001 C CNN
-F 3 "~" H 10095 5475 50  0001 C CNN
-	1    10095 5475
-	1    0    0    -1  
-$EndComp
 $Comp
 L Amplifier_Operational:LMV321 U8
 U 1 1 5D568B67
@@ -1213,4 +1203,15 @@ Wire Bus Line
 	5140 1430 5140 4770
 Wire Bus Line
 	5620 1430 5620 6005
+$Comp
+L Connector_Generic:Conn_01x03 J6
+U 1 1 5D7523A3
+P 10095 5475
+F 0 "J6" H 10175 5517 50  0000 L CNN
+F 1 "Conn_01x03" H 10175 5426 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 10095 5475 50  0001 C CNN
+F 3 "~" H 10095 5475 50  0001 C CNN
+	1    10095 5475
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
