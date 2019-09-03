@@ -228,23 +228,45 @@ $EndComp
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 5D35982E
-P 3850 1850
-F 0 "H1" H 3950 1896 50  0000 L CNN
-F 1 "MountingHole" H 3950 1805 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_ISO7380" H 3850 1850 50  0001 C CNN
-F 3 "~" H 3850 1850 50  0001 C CNN
-	1    3850 1850
+P 3850 1550
+F 0 "H1" H 3950 1596 50  0000 L CNN
+F 1 "MountingHole" H 3950 1505 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_ISO7380" H 3850 1550 50  0001 C CNN
+F 3 "~" H 3850 1550 50  0001 C CNN
+	1    3850 1550
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H2
 U 1 1 5D35992F
+P 3850 1800
+F 0 "H2" H 3950 1846 50  0000 L CNN
+F 1 "MountingHole" H 3950 1755 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_ISO7380" H 3850 1800 50  0001 C CNN
+F 3 "~" H 3850 1800 50  0001 C CNN
+	1    3850 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5D42C4B2
 P 3850 2100
-F 0 "H2" H 3950 2146 50  0000 L CNN
+F 0 "H3" H 3950 2146 50  0000 L CNN
 F 1 "MountingHole" H 3950 2055 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.2mm_M2_ISO7380" H 3850 2100 50  0001 C CNN
 F 3 "~" H 3850 2100 50  0001 C CNN
 	1    3850 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5D42C4B9
+P 3850 2350
+F 0 "H4" H 3950 2396 50  0000 L CNN
+F 1 "MountingHole" H 3950 2305 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_ISO7380" H 3850 2350 50  0001 C CNN
+F 3 "~" H 3850 2350 50  0001 C CNN
+	1    3850 2350
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

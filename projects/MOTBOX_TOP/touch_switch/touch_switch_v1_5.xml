@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/hitesh/KICAD/projects/MOTBOX_TOP/touch_switch/touch_switch_v1_5.sch</source>
-    <date>Wed Jul 24 10:31:37 2019</date>
+    <date>Fri Aug 30 11:10:18 2019</date>
     <tool>Eeschema 5.0.2-bee76a0~70~ubuntu18.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -28,16 +28,16 @@
       <tstamp>5CC28BDB</tstamp>
     </comp>
     <comp ref="R1">
-      <value>150R</value>
-      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <value>150E</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CF9F5F0</tstamp>
     </comp>
     <comp ref="R2">
-      <value>150R</value>
-      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <value>150E</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
       <sheetpath names="/" tstamps="/"/>
@@ -67,8 +67,8 @@
       <tstamp>5D355C7E</tstamp>
     </comp>
     <comp ref="R3">
-      <value>150R</value>
-      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <value>150E</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
       <sheetpath names="/" tstamps="/"/>
@@ -128,6 +128,22 @@
       <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D35992F</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_ISO7380</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D42C4B2</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_ISO7380</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D42C4B9</tstamp>
     </comp>
   </components>
   <libparts>
