@@ -1,0 +1,544 @@
+EESchema Schematic File Version 4
+LIBS:rf_tx-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:Battery BT1
+U 1 1 5D5FA283
+P 1300 2450
+F 0 "BT1" H 1408 2496 50  0000 L CNN
+F 1 "Battery" H 1408 2405 50  0000 L CNN
+F 2 "" V 1300 2510 50  0001 C CNN
+F 3 "~" V 1300 2510 50  0001 C CNN
+	1    1300 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J1
+U 1 1 5D5FA2B5
+P 1950 1350
+F 0 "J1" H 2000 1150 50  0000 R CNN
+F 1 "Conn_01x03" H 1950 1550 50  0000 R CNN
+F 2 "" H 1950 1350 50  0001 C CNN
+F 3 "~" H 1950 1350 50  0001 C CNN
+	1    1950 1350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:CP_Small C1
+U 1 1 5D5FA3D5
+P 3050 3000
+F 0 "C1" H 3138 3046 50  0000 L CNN
+F 1 "330uF" H 3138 2955 50  0000 L CNN
+F 2 "" H 3050 3000 50  0001 C CNN
+F 3 "~" H 3050 3000 50  0001 C CNN
+	1    3050 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R1
+U 1 1 5D5FA4F1
+P 3050 2650
+F 0 "R1" H 3118 2696 50  0000 L CNN
+F 1 "1K" H 3118 2605 50  0000 L CNN
+F 2 "" H 3050 2650 50  0001 C CNN
+F 3 "~" H 3050 2650 50  0001 C CNN
+	1    3050 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xGxx:74LVC1G04 U1
+U 1 1 5D5FA87C
+P 2750 2400
+F 0 "U1" H 2725 2667 50  0000 C CNN
+F 1 "74LVC1G04" H 2725 2576 50  0000 C CNN
+F 2 "" H 2750 2400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 2750 2400 50  0001 C CNN
+	1    2750 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xGxx:74LVC1G14 U2
+U 1 1 5D5FA9BD
+P 3550 2400
+F 0 "U2" H 3525 2667 50  0000 C CNN
+F 1 "74LVC1G14" H 3525 2576 50  0000 C CNN
+F 2 "" H 3550 2400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 3550 2400 50  0001 C CNN
+	1    3550 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xGxx:74LVC1G86 U3
+U 1 1 5D5FAC78
+P 4300 2350
+F 0 "U3" H 4275 2617 50  0000 C CNN
+F 1 "74LVC1G86" H 4275 2526 50  0000 C CNN
+F 2 "" H 4300 2350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 4300 2350 50  0001 C CNN
+	1    4300 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 2250 1300 2050
+Wire Wire Line
+	1300 2650 1300 3200
+Wire Wire Line
+	3050 3250 3050 3100
+$Comp
+L hitesh_custom:VCC #PWR01
+U 1 1 5D5FCEB8
+P 1300 1950
+F 0 "#PWR01" H 1300 1800 50  0001 C CNN
+F 1 "VCC" H 1317 2123 50  0000 C CNN
+F 2 "" H 1300 1950 50  0001 C CNN
+F 3 "" H 1300 1950 50  0001 C CNN
+	1    1300 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5D5FCF3C
+P 1300 3300
+F 0 "#PWR02" H 1300 3050 50  0001 C CNN
+F 1 "GND" H 1305 3127 50  0000 C CNN
+F 2 "" H 1300 3300 50  0001 C CNN
+F 3 "" H 1300 3300 50  0001 C CNN
+	1    1300 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 2400 3050 2400
+Wire Wire Line
+	3050 2400 3050 2550
+$Comp
+L hitesh_custom:AnyPCB PCB1
+U 1 1 5D63C77B
+P 8800 2150
+F 0 "PCB1" H 9078 2421 50  0000 L CNN
+F 1 "433MHz TX" H 9078 2330 50  0000 L CNN
+F 2 "" H 8800 2150 50  0001 C CNN
+F 3 "" H 8800 2150 50  0001 C CNN
+	1    8800 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 2400 3250 2400
+Connection ~ 3050 2400
+Wire Wire Line
+	3800 2400 4000 2400
+Wire Wire Line
+	3050 2400 3050 2050
+Wire Wire Line
+	3050 2050 3850 2050
+Wire Wire Line
+	3850 2050 3850 2300
+Wire Wire Line
+	3850 2300 4000 2300
+Wire Wire Line
+	3050 2750 3050 2900
+$Comp
+L power:GND #PWR03
+U 1 1 5D63D443
+P 3050 3250
+F 0 "#PWR03" H 3050 3000 50  0001 C CNN
+F 1 "GND" H 3055 3077 50  0000 C CNN
+F 2 "" H 3050 3250 50  0001 C CNN
+F 3 "" H 3050 3250 50  0001 C CNN
+	1    3050 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J2
+U 1 1 5D63DD0B
+P 8100 1800
+F 0 "J2" H 8180 1792 50  0000 L CNN
+F 1 "Conn_01x04" H 8180 1701 50  0000 L CNN
+F 2 "" H 8100 1800 50  0001 C CNN
+F 3 "~" H 8100 1800 50  0001 C CNN
+	1    8100 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L hitesh_custom:HT12E U4
+U 1 1 5D695860
+P 5700 1300
+F 0 "U4" H 5750 1350 50  0000 C CNN
+F 1 "HT12E" H 6100 700 50  0000 C CNN
+F 2 "" H 5700 1250 50  0001 C CNN
+F 3 "" H 5700 1250 50  0001 C CNN
+	1    5700 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R2
+U 1 1 5D695A57
+P 7100 1450
+F 0 "R2" V 7050 1600 50  0000 C CNN
+F 1 "100K" V 6986 1450 50  0000 C CNN
+F 2 "" V 7140 1440 50  0001 C CNN
+F 3 "~" H 7100 1450 50  0001 C CNN
+	1    7100 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R3
+U 1 1 5D695AAC
+P 7100 1650
+F 0 "R3" V 7050 1800 50  0000 C CNN
+F 1 "1M" V 7050 1500 50  0000 C CNN
+F 2 "" V 7140 1640 50  0001 C CNN
+F 3 "~" H 7100 1650 50  0001 C CNN
+	1    7100 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP1
+U 1 1 5D69608B
+P 5200 1400
+F 0 "JP1" H 5050 1450 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 5200 1494 50  0001 C CNN
+F 2 "" H 5200 1400 50  0001 C CNN
+F 3 "~" H 5200 1400 50  0001 C CNN
+	1    5200 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP2
+U 1 1 5D696376
+P 5200 1500
+F 0 "JP2" H 5050 1550 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 5200 1594 50  0001 C CNN
+F 2 "" H 5200 1500 50  0001 C CNN
+F 3 "~" H 5200 1500 50  0001 C CNN
+	1    5200 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP3
+U 1 1 5D6965FD
+P 5200 1600
+F 0 "JP3" H 5050 1650 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 5200 1694 50  0001 C CNN
+F 2 "" H 5200 1600 50  0001 C CNN
+F 3 "~" H 5200 1600 50  0001 C CNN
+	1    5200 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP4
+U 1 1 5D696604
+P 5200 1700
+F 0 "JP4" H 5050 1750 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 5200 1794 50  0001 C CNN
+F 2 "" H 5200 1700 50  0001 C CNN
+F 3 "~" H 5200 1700 50  0001 C CNN
+	1    5200 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP5
+U 1 1 5D69697B
+P 5200 1800
+F 0 "JP5" H 5050 1850 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 5200 1894 50  0001 C CNN
+F 2 "" H 5200 1800 50  0001 C CNN
+F 3 "~" H 5200 1800 50  0001 C CNN
+	1    5200 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP6
+U 1 1 5D696982
+P 5200 1900
+F 0 "JP6" H 5050 1950 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 5200 1994 50  0001 C CNN
+F 2 "" H 5200 1900 50  0001 C CNN
+F 3 "~" H 5200 1900 50  0001 C CNN
+	1    5200 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP7
+U 1 1 5D696989
+P 5200 2000
+F 0 "JP7" H 5050 2050 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 5200 2094 50  0001 C CNN
+F 2 "" H 5200 2000 50  0001 C CNN
+F 3 "~" H 5200 2000 50  0001 C CNN
+	1    5200 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP8
+U 1 1 5D696990
+P 5200 2100
+F 0 "JP8" H 5050 2150 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 5200 2194 50  0001 C CNN
+F 2 "" H 5200 2100 50  0001 C CNN
+F 3 "~" H 5200 2100 50  0001 C CNN
+	1    5200 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 2350 5500 2350
+Wire Wire Line
+	5300 1400 5500 1400
+Wire Wire Line
+	5300 1500 5500 1500
+Wire Wire Line
+	5300 1600 5500 1600
+Wire Wire Line
+	5300 1700 5500 1700
+Wire Wire Line
+	5300 1800 5500 1800
+Wire Wire Line
+	5300 1900 5500 1900
+Wire Wire Line
+	5300 2000 5500 2000
+Wire Wire Line
+	5300 2100 5500 2100
+Wire Wire Line
+	5100 1400 4850 1400
+Wire Wire Line
+	4850 1500 5100 1500
+Wire Wire Line
+	5100 1600 4850 1600
+Wire Wire Line
+	4850 1700 5100 1700
+Wire Wire Line
+	5100 1800 4850 1800
+Wire Wire Line
+	4850 1900 5100 1900
+Wire Wire Line
+	5100 2000 4850 2000
+Wire Wire Line
+	4850 2100 5100 2100
+$Comp
+L power:GND #PWR04
+U 1 1 5D69A572
+P 4850 2100
+F 0 "#PWR04" H 4850 1850 50  0001 C CNN
+F 1 "GND" H 5000 2050 50  0000 C CNN
+F 2 "" H 4850 2100 50  0001 C CNN
+F 3 "" H 4850 2100 50  0001 C CNN
+	1    4850 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 1400 4850 1500
+Connection ~ 4850 1500
+Wire Wire Line
+	4850 1500 4850 1600
+Connection ~ 4850 1600
+Wire Wire Line
+	4850 1600 4850 1700
+Connection ~ 4850 1700
+Wire Wire Line
+	4850 1700 4850 1800
+Connection ~ 4850 1800
+Wire Wire Line
+	4850 1800 4850 1900
+Connection ~ 4850 1900
+Wire Wire Line
+	4850 1900 4850 2000
+Connection ~ 4850 2000
+Wire Wire Line
+	4850 2000 4850 2100
+Connection ~ 4850 2100
+$Comp
+L power:GND #PWR06
+U 1 1 5D69C523
+P 6100 2750
+F 0 "#PWR06" H 6100 2500 50  0001 C CNN
+F 1 "GND" H 6105 2577 50  0000 C CNN
+F 2 "" H 6100 2750 50  0001 C CNN
+F 3 "" H 6100 2750 50  0001 C CNN
+	1    6100 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 2700 6100 2750
+$Comp
+L hitesh_custom:VCC #PWR05
+U 1 1 5D69D78E
+P 6100 1000
+F 0 "#PWR05" H 6100 850 50  0001 C CNN
+F 1 "VCC" H 6117 1173 50  0000 C CNN
+F 2 "" H 6100 1000 50  0001 C CNN
+F 3 "" H 6100 1000 50  0001 C CNN
+	1    6100 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 1000 6100 1100
+Wire Wire Line
+	6700 1450 6950 1450
+Wire Wire Line
+	7250 1450 7400 1450
+Wire Wire Line
+	7400 1450 7400 1650
+Wire Wire Line
+	7400 1650 7250 1650
+Wire Wire Line
+	6950 1650 6700 1650
+Wire Wire Line
+	1300 2050 1550 2050
+Connection ~ 1300 2050
+Wire Wire Line
+	1300 2050 1300 1950
+Wire Wire Line
+	1300 3200 1550 3200
+Connection ~ 1300 3200
+Wire Wire Line
+	1300 3200 1300 3300
+Wire Wire Line
+	7600 2000 7900 2000
+Wire Wire Line
+	7600 1800 7900 1800
+Wire Wire Line
+	7900 1900 7600 1900
+Wire Wire Line
+	7900 1700 7600 1700
+Wire Wire Line
+	6700 1900 7050 1900
+Text Label 7050 1900 2    50   ~ 0
+DATA
+Text Label 1550 2050 2    50   ~ 0
+VCC
+Text Label 1550 3200 2    50   ~ 0
+GND
+Text Label 7600 1800 0    50   ~ 0
+VCC
+Text Label 7600 1900 0    50   ~ 0
+DATA
+Text Label 7600 2000 0    50   ~ 0
+GND
+Text Label 7600 1700 0    50   ~ 0
+ANT
+$Comp
+L Connector:Conn_01x01_Female J3
+U 1 1 5D6A7D25
+P 9150 1050
+F 0 "J3" H 9177 1076 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 9177 985 50  0000 L CNN
+F 2 "" H 9150 1050 50  0001 C CNN
+F 3 "~" H 9150 1050 50  0001 C CNN
+	1    9150 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 1050 8950 1050
+Text Label 8350 1050 0    50   ~ 0
+ANT
+Wire Wire Line
+	2150 1450 2650 1450
+Wire Wire Line
+	2150 1350 2650 1350
+Wire Wire Line
+	2150 1250 2650 1250
+Text Label 2650 1350 2    50   ~ 0
+SENSOR
+Text Label 2050 2400 0    50   ~ 0
+SENSOR
+Wire Wire Line
+	2050 2400 2450 2400
+Text Label 2650 1250 2    50   ~ 0
+VCC
+Text Label 2650 1450 2    50   ~ 0
+GND
+$Comp
+L Device:Jumper_NO_Small JP9
+U 1 1 5D6B27BB
+P 7000 2100
+F 0 "JP9" H 6850 2150 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 7000 2194 50  0001 C CNN
+F 2 "" H 7000 2100 50  0001 C CNN
+F 3 "~" H 7000 2100 50  0001 C CNN
+	1    7000 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP10
+U 1 1 5D6B27C2
+P 7000 2200
+F 0 "JP10" H 6850 2250 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 7000 2294 50  0001 C CNN
+F 2 "" H 7000 2200 50  0001 C CNN
+F 3 "~" H 7000 2200 50  0001 C CNN
+	1    7000 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP11
+U 1 1 5D6B27C9
+P 7000 2300
+F 0 "JP11" H 6850 2350 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 7000 2394 50  0001 C CNN
+F 2 "" H 7000 2300 50  0001 C CNN
+F 3 "~" H 7000 2300 50  0001 C CNN
+	1    7000 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP12
+U 1 1 5D6B27D0
+P 7000 2400
+F 0 "JP12" H 6850 2450 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 7000 2494 50  0001 C CNN
+F 2 "" H 7000 2400 50  0001 C CNN
+F 3 "~" H 7000 2400 50  0001 C CNN
+	1    7000 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 2100 6900 2100
+Wire Wire Line
+	6700 2200 6900 2200
+Wire Wire Line
+	6700 2300 6900 2300
+Wire Wire Line
+	6700 2400 6900 2400
+Wire Wire Line
+	7100 2100 7300 2100
+Wire Wire Line
+	7100 2200 7300 2200
+Wire Wire Line
+	7100 2300 7300 2300
+Wire Wire Line
+	7100 2400 7300 2400
+Wire Wire Line
+	7300 2100 7300 2200
+Connection ~ 7300 2200
+Wire Wire Line
+	7300 2200 7300 2300
+Connection ~ 7300 2300
+Wire Wire Line
+	7300 2300 7300 2400
+Connection ~ 7300 2400
+Wire Wire Line
+	7300 2400 7300 2500
+$Comp
+L power:GND #PWR07
+U 1 1 5D6B8B69
+P 7300 2500
+F 0 "#PWR07" H 7300 2250 50  0001 C CNN
+F 1 "GND" H 7305 2327 50  0000 C CNN
+F 2 "" H 7300 2500 50  0001 C CNN
+F 3 "" H 7300 2500 50  0001 C CNN
+	1    7300 2500
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
