@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/hitesh/KICAD/projects/MOTBOX_TOP/ir_rx_led/ir_rx_led_v1_5.sch</source>
-    <date>Wed Jul 24 08:59:08 2019</date>
+    <date>Thu Aug  1 17:20:21 2019</date>
     <tool>Eeschema 5.0.2-bee76a0~70~ubuntu18.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -44,12 +44,36 @@
       <tstamp>5D3014B8</tstamp>
     </comp>
     <comp ref="H1">
-      <value>MountingHole</value>
+      <value> MountingHole</value>
       <footprint>MountingHole:MountingHole_2.2mm_M2_ISO7380</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D352F91</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_ISO7380</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D352FF3</tstamp>
+    </comp>
+    <comp ref="H7">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_ISO7380</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D42A906</tstamp>
+    </comp>
+    <comp ref="H5">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_ISO7380</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D42A85C</tstamp>
     </comp>
     <comp ref="H2">
       <value>MountingHole</value>
@@ -57,7 +81,23 @@
       <datasheet>~</datasheet>
       <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5D352FF3</tstamp>
+      <tstamp>5D42B75D</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_ISO7380</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D42B7EB</tstamp>
+    </comp>
+    <comp ref="H6">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_ISO7380</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D42B91F</tstamp>
     </comp>
   </components>
   <libparts>
