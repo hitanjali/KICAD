@@ -318,7 +318,7 @@ P 1700 1200
 AR Path="/5CC16294/5CC2F42A" Ref="R?"  Part="1" 
 AR Path="/5CC2F42A" Ref="R1"  Part="1" 
 F 0 "R1" H 1768 1246 50  0000 L CNN
-F 1 "60K" H 1768 1155 50  0000 L CNN
+F 1 "18K" H 1768 1155 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 1740 1190 50  0001 C CNN
 F 3 "~" H 1700 1200 50  0001 C CNN
 F 4 "TOP" H 0   0   50  0001 C CNN "Layer"
@@ -488,7 +488,7 @@ Connection ~ 5000 1300
 Wire Wire Line
 	5000 1300 5000 1400
 Text Notes 12100 10350 0    50   ~ 0
-Version 1.5 : Removed the promini board and added the controller as a part of the board\nVersion 1.6 : Removed the 6 pin header for FTDI programming in the Atmega328p board\nVersion 1.7 : Changes in the routing as per the new PCB with GND first approach
+Version 1.5 : Removed the promini board and added the controller as a part of the board\nVersion 1.6 : Removed the 6 pin header for FTDI programming in the Atmega328p board\nVersion 1.7 : Changes in the routing as per the new PCB with GND first approach\nVersion 1.7.1 : Changes in the value of IR RX resistance to 18K for optimum transparent cable detection
 $Comp
 L Regulator_Switching_hitesh:LM2576 U1
 U 1 1 5CF031AA
@@ -669,7 +669,7 @@ P 2050 1200
 AR Path="/5CC16294/5D25922F" Ref="R?"  Part="1" 
 AR Path="/5D25922F" Ref="R3"  Part="1" 
 F 0 "R3" H 2118 1246 50  0000 L CNN
-F 1 "60K" H 2118 1155 50  0000 L CNN
+F 1 "18K" H 2118 1155 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 2090 1190 50  0001 C CNN
 F 3 "~" H 2050 1200 50  0001 C CNN
 F 4 "TOP" H 350 0   50  0001 C CNN "Layer"
@@ -819,8 +819,8 @@ P 10300 3200
 AR Path="/5D71690F" Ref="C4"  Part="1" 
 AR Path="/5D2BA384/5D71690F" Ref="C?"  Part="1" 
 AR Path="/5CFE6B0B/5D2BA384/5D71690F" Ref="C?"  Part="1" 
-F 0 "C4" V 10250 3650 50  0000 C CNN
-F 1 "22pF" V 10250 3400 50  0000 C CNN
+F 0 "C4" V 10200 3200 50  0000 C CNN
+F 1 "22pF" V 10250 3350 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 10300 3200 50  0001 C CNN
 F 3 "~" H 10300 3200 50  0001 C CNN
 	1    10300 3200
@@ -833,8 +833,8 @@ P 10300 3400
 AR Path="/5D716916" Ref="C5"  Part="1" 
 AR Path="/5D2BA384/5D716916" Ref="C?"  Part="1" 
 AR Path="/5CFE6B0B/5D2BA384/5D716916" Ref="C?"  Part="1" 
-F 0 "C5" V 10350 3550 50  0000 C CNN
-F 1 "22pF" V 10410 3400 50  0000 C CNN
+F 0 "C5" V 10400 3400 50  0000 C CNN
+F 1 "22pF" V 10350 3550 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 10300 3400 50  0001 C CNN
 F 3 "~" H 10300 3400 50  0001 C CNN
 	1    10300 3400
