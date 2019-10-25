@@ -80,7 +80,7 @@ L Device:LED_Small D2
 U 1 1 5D354FAC
 P 5100 4000
 F 0 "D2" V 5146 3932 50  0000 R CNN
-F 1 "LED_GREEN" H 5055 3932 50  0000 R CNN
+F 1 "LED_BLUE" H 5055 3932 50  0000 R CNN
 F 2 "LED_SMD:LED_0603_1608Metric" V 5100 4000 50  0001 C CNN
 F 3 "~" V 5100 4000 50  0001 C CNN
 	1    5100 4000
@@ -131,7 +131,7 @@ L Device:LED_Small D3
 U 1 1 5D35627F
 P 5450 4000
 F 0 "D3" V 5496 3932 50  0000 R CNN
-F 1 "LED_BLUE" H 5405 3932 50  0000 R CNN
+F 1 "LED_GREEN" H 5405 3932 50  0000 R CNN
 F 2 "LED_SMD:LED_0603_1608Metric" V 5450 4000 50  0001 C CNN
 F 3 "~" V 5450 4000 50  0001 C CNN
 	1    5450 4000
@@ -225,48 +225,6 @@ F 3 "" H 6550 3400 50  0001 C CNN
 	1    6550 3400
 	-1   0    0    1   
 $EndComp
-$Comp
-L Mechanical:MountingHole H1
-U 1 1 5D35982E
-P 3850 1550
-F 0 "H1" H 3950 1596 50  0000 L CNN
-F 1 "MountingHole" H 3950 1505 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_ISO7380" H 3850 1550 50  0001 C CNN
-F 3 "~" H 3850 1550 50  0001 C CNN
-	1    3850 1550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H2
-U 1 1 5D35992F
-P 3850 1800
-F 0 "H2" H 3950 1846 50  0000 L CNN
-F 1 "MountingHole" H 3950 1755 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_ISO7380" H 3850 1800 50  0001 C CNN
-F 3 "~" H 3850 1800 50  0001 C CNN
-	1    3850 1800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H3
-U 1 1 5D42C4B2
-P 3850 2100
-F 0 "H3" H 3950 2146 50  0000 L CNN
-F 1 "MountingHole" H 3950 2055 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_ISO7380" H 3850 2100 50  0001 C CNN
-F 3 "~" H 3850 2100 50  0001 C CNN
-	1    3850 2100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H4
-U 1 1 5D42C4B9
-P 3850 2350
-F 0 "H4" H 3950 2396 50  0000 L CNN
-F 1 "MountingHole" H 3950 2305 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_ISO7380" H 3850 2350 50  0001 C CNN
-F 3 "~" H 3850 2350 50  0001 C CNN
-	1    3850 2350
-	1    0    0    -1  
-$EndComp
+Text Notes 7050 6650 0    50   ~ 0
+As Green was found tobe very bright it is shifted to Switch o/p and Blue was shifted to power indication.
 $EndSCHEMATC

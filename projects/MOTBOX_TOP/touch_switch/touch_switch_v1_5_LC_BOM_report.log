@@ -1,0 +1,132 @@
+================================================================================
+Path of the xml file : /home/hitesh/KICAD/projects/MOTBOX_TOP/touch_switch/touch_switch_v1_5.xml
+Path of the report file : /home/hitesh/KICAD/projects/MOTBOX_TOP/touch_switch/touch_switch_v1_5_LC_BOM_report.log
+Path of the cvs file : /home/hitesh/KICAD/projects/MOTBOX_TOP/touch_switch/touch_switch_v1_5.csv
+Path of the LC BOM csv file : /home/hitesh/KICAD/projects/MOTBOX_TOP/touch_switch/touch_switch_v1_5_LC_BOM.csv
+Path of the LC BOM XLS file : /home/hitesh/KICAD/projects/MOTBOX_TOP/touch_switch/touch_switch_v1_5_LC_BOM.xlsx
+================================================================================
+================================================================================
+Lib parts parsing : Started
+================================================================================
+
+Component : Conn_01x04
+Num of pins : 4
+
+Component : C_Small
+Num of pins : 2
+
+Component : LED_Small
+Num of pins : 2
+
+Component : R_US
+Num of pins : 2
+
+Component : SolderJumper_2_Open
+Num of pins : 2
+
+Component : MountingHole
+Component : Solder_pad
+Num of pins : 1
+
+Component : TTP223
+Num of pins : 6
+
+================================================================================
+Lib parts parssing : finished
+================================================================================
+
+
+================================================================================
+Preparing lc bom from the csv bom
+================================================================================
+Designator : "C1, "
+Quantity : "1"
+Value : "30pF"
+Comp name : C_Small
+Package : "Capacitor_SMD:C_0603_1608Metric"
+Comments : "Unpolarized capacitor, small symbol"
+# of pins : 2
+-------------------------------------
+
+Designator : "D1, "
+Quantity : "1"
+Value : "LED_RED"
+Comp name : LED_Small
+Package : "LED_SMD:LED_0603_1608Metric"
+Comments : "Light emitting diode, small symbol"
+# of pins : 2
+-------------------------------------
+
+Designator : "D2, "
+Quantity : "1"
+Value : "LED_GREEN"
+Comp name : LED_Small
+Package : "LED_SMD:LED_0603_1608Metric"
+Comments : "Light emitting diode, small symbol"
+# of pins : 2
+-------------------------------------
+
+Designator : "D3, "
+Quantity : "1"
+Value : "LED_BLUE"
+Comp name : LED_Small
+Package : "LED_SMD:LED_0603_1608Metric"
+Comments : "Light emitting diode, small symbol"
+# of pins : 2
+-------------------------------------
+
+Designator : "H1, H2, H3, H4, "
+Quantity : "4"
+Value : "MountingHole"
+Comp name : MountingHole
+Package : "MountingHole:MountingHole_2.2mm_M2_ISO7380"
+Comments : "Mounting Hole without connection"
+-------------------------------------
+WARNINGS : NO PINS : MountingHole
+-------------------------------------
+
+Designator : "J1, "
+Quantity : "1"
+Value : "Conn_01x04"
+Comp name : Conn_01x04
+Package : "Connector_Wire:SolderWirePad_1x04_P3.175mm_Drill0.8mm"
+Comments : "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+# of pins : 4
+-------------------------------------
+
+Designator : "JP1, JP2, "
+Quantity : "2"
+Value : "SolderJumper_2_Open"
+Comp name : SolderJumper_2_Open
+Package : "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+Comments : "Solder Jumper, 2-pole, open"
+# of pins : 2
+-------------------------------------
+
+Designator : "R1, R2, R3, "
+Quantity : "3"
+Value : "150E"
+Comp name : R_US
+Package : "Resistor_SMD:R_0603_1608Metric"
+Comments : "Resistor, US symbol"
+# of pins : 2
+-------------------------------------
+
+Designator : "S1, "
+Quantity : "1"
+Value : "Solder_pad"
+Comp name : Solder_pad
+Package : "mylib:Touch_pad_10x10mm"
+Comments : ""
+# of pins : 1
+-------------------------------------
+
+Designator : "U1, "
+Quantity : "1"
+Value : "TTP223"
+Comp name : TTP223
+Package : "Package_TO_SOT_SMD:SOT-23-6"
+Comments : ""
+# of pins : 6
+-------------------------------------
+

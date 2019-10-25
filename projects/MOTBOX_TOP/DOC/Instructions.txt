@@ -1,0 +1,10 @@
+General Instructions for all boards : 
+
+1. The connectors are polarized hence can not be connected in any direction. In order to find the correct pins to solder : 
+
+	a) Connect one end of the connector to the main PCB. 
+	b) Note the GND or any specific pin marked on the connector. 
+	c) Solder the marked pin [ GND or any other ] to the corresponding pin on the suppporting PCB. 
+	d) Maintain the sequence. 
+
+4. IR TX and IR RX boards look similar but there are connection differences. Need to take care of connecting TX and RX LEDs.

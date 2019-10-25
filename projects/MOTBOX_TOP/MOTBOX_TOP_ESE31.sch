@@ -1,6 +1,7 @@
 EESchema Schematic File Version 4
 LIBS:MOTBOX_TOP_ESE31-cache
-LIBS:motbox_with_promini_v1_3-cache
+LIBS:touch_switch_v1_6-cache
+LIBS:motbox_with_promini_v1_71-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -87,7 +88,7 @@ L hitesh_custom:SMPS PWR1
 U 1 1 5CC91415
 P 2900 5350
 F 0 "PWR1" H 2900 5300 50  0000 L CNN
-F 1 "12V, 2A SMPS Module" H 2900 5650 50  0000 L CNN
+F 1 "12V, 0.5A SMPS Module" H 2900 5650 50  0000 L CNN
 F 2 "" H 2900 5350 50  0001 C CNN
 F 3 "" H 2900 5350 50  0001 C CNN
 	1    2900 5350
