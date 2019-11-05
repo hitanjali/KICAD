@@ -128,4 +128,15 @@ F 3 "~" H 5200 2200 50  0001 C CNN
 	1    5200 2200
 	1    0    0    -1  
 $EndComp
+$Comp
+L Mechanical:MountingHole H7
+U 1 1 5D42C135
+P 5700 2950
+F 0 "H7" H 5800 2996 50  0000 L CNN
+F 1 "MountingHole" H 5800 2905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_ISO7380" H 5700 2950 50  0001 C CNN
+F 3 "~" H 5700 2950 50  0001 C CNN
+	1    5700 2950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

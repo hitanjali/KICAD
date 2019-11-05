@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/hitesh/KICAD/projects/MOTBOX_TOP/motbox_with_promini/motbox_with_promini_v1_71.sch)
-    (date "Fri Oct 25 15:31:50 2019")
+    (date "Tue Nov  5 18:19:59 2019")
     (tool "Eeschema 5.0.2-bee76a0~70~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -70,7 +70,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5CC2F337))
     (comp (ref R1)
-      (value 18K)
+      (value 10K)
       (footprint Resistor_SMD:R_0603_1608Metric)
       (datasheet ~)
       (fields
@@ -177,7 +177,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5D473756))
     (comp (ref R3)
-      (value 18K)
+      (value 10K)
       (footprint Resistor_SMD:R_0603_1608Metric)
       (datasheet ~)
       (fields

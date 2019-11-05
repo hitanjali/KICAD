@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 8)
+    (drawings 10)
     (tracks 21)
     (zones 0)
     (modules 5)
@@ -278,6 +278,12 @@
     )
   )
 
+  (gr_text G (at 138.75 55.85) (layer F.SilkS)
+    (effects (font (size 0.5 0.5) (thickness 0.05)))
+  )
+  (gr_text R (at 133.45 55.85) (layer F.SilkS)
+    (effects (font (size 0.5 0.5) (thickness 0.05)))
+  )
   (gr_text LED (at 134.85 69) (layer F.SilkS)
     (effects (font (size 0.5 0.5) (thickness 0.05)))
   )

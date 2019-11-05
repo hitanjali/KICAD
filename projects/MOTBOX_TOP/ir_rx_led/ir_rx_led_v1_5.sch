@@ -64,7 +64,7 @@ U 1 1 5D352F91
 P 2600 1500
 F 0 "H1" H 2700 1546 50  0000 L CNN
 F 1 " MountingHole" H 2700 1455 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_ISO7380" H 2600 1500 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 2600 1500 50  0001 C CNN
 F 3 "~" H 2600 1500 50  0001 C CNN
 	1    2600 1500
 	1    0    0    -1  
@@ -75,7 +75,7 @@ U 1 1 5D352FF3
 P 2600 2200
 F 0 "H3" H 2700 2246 50  0000 L CNN
 F 1 "MountingHole" H 2700 2155 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_ISO7380" H 2600 2200 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 2600 2200 50  0001 C CNN
 F 3 "~" H 2600 2200 50  0001 C CNN
 	1    2600 2200
 	1    0    0    -1  
@@ -92,7 +92,7 @@ U 1 1 5D42A906
 P 5750 2000
 F 0 "H7" H 5850 2046 50  0000 L CNN
 F 1 "MountingHole" H 5850 1955 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_ISO7380" H 5750 2000 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965" H 5750 2000 50  0001 C CNN
 F 3 "~" H 5750 2000 50  0001 C CNN
 	1    5750 2000
 	1    0    0    -1  
@@ -103,7 +103,7 @@ U 1 1 5D42A85C
 P 5750 1500
 F 0 "H5" H 5850 1546 50  0000 L CNN
 F 1 "MountingHole" H 5850 1455 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_ISO7380" H 5750 1500 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965" H 5750 1500 50  0001 C CNN
 F 3 "~" H 5750 1500 50  0001 C CNN
 	1    5750 1500
 	1    0    0    -1  
@@ -114,7 +114,7 @@ U 1 1 5D42B75D
 P 2600 1850
 F 0 "H2" H 2700 1896 50  0000 L CNN
 F 1 "MountingHole" H 2700 1805 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_ISO7380" H 2600 1850 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 2600 1850 50  0001 C CNN
 F 3 "~" H 2600 1850 50  0001 C CNN
 	1    2600 1850
 	1    0    0    -1  
@@ -125,7 +125,7 @@ U 1 1 5D42B7EB
 P 2600 2500
 F 0 "H4" H 2700 2546 50  0000 L CNN
 F 1 "MountingHole" H 2700 2455 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_ISO7380" H 2600 2500 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 2600 2500 50  0001 C CNN
 F 3 "~" H 2600 2500 50  0001 C CNN
 	1    2600 2500
 	1    0    0    -1  
@@ -136,7 +136,7 @@ U 1 1 5D42B91F
 P 5750 1750
 F 0 "H6" H 5850 1796 50  0000 L CNN
 F 1 "MountingHole" H 5850 1705 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_ISO7380" H 5750 1750 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965" H 5750 1750 50  0001 C CNN
 F 3 "~" H 5750 1750 50  0001 C CNN
 	1    5750 1750
 	1    0    0    -1  

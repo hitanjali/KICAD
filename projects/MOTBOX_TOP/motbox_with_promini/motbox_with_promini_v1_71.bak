@@ -488,7 +488,7 @@ Connection ~ 5000 1300
 Wire Wire Line
 	5000 1300 5000 1400
 Text Notes 12100 10350 0    50   ~ 0
-Version 1.5 : Removed the promini board and added the controller as a part of the board\nVersion 1.6 : Removed the 6 pin header for FTDI programming in the Atmega328p board\nVersion 1.7 : Changes in the routing as per the new PCB with GND first approach\nVersion 1.7.1 : Changes in the value of IR RX resistance to 10K for optimum transparent cable detection
+Version 1.5 : Removed the promini board and added the controller as a part of the board\nVersion 1.6 : Removed the 6 pin header for FTDI programming in the Atmega328p board\nVersion 1.7 : Changes in the routing as per the new PCB with GND first approach\nVersion 1.7.1 : Changes in the value of IR RX resistance to 18K for optimum transparent cable detection
 $Comp
 L Regulator_Switching_hitesh:LM2576 U1
 U 1 1 5CF031AA
