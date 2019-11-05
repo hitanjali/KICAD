@@ -19,3 +19,173 @@ Hence it would be good to design a system with Tx to be limited time as we are a
 // Does NOT work perfect as it seems the pulse may be too low in the width
 ========================================================================================================================
 
+
+
+
+========================================================================================================================
+// EXPERIMENT with LM393 Comparator and 74153 4:1 Mux [ to implement XOR ]
+========================================================================================================================
+The o/p stage of LM392 is open collector so with 3.3K pullup was used at the o/p stage. 
+
+The Low level o/p would atleast consume 5/3.3 = 1.5mA minimum. 
+
+With LM393 and the 4:1 74HC153  : 2.5mA 
+
+Removed LM393 : 0.09mA
+
+CONCLUSION : LM393 is sucking lot of current becuase of the open collector design
+========================================================================================================================
+// With 74HC153 mux acting as XOR gate 
+========================================================================================================================
+
+With LM358 OPAMP + 74HC153  : Iq = 0.5mA [ 80 Days at 1000mAH ]
+
+For 1 year @1000mAH , we require : 0.1mA Iq
+
+========================================================================================================================
+// With CD4070 XOR gate 
+========================================================================================================================
+
+
+With LM358 + CD4070 = 0.35mA
+
+Improvement of 0.15mA , but still quite high 
+
+Which means the LM358 is sucking the rest
+
+ 
+========================================================================================================================
+// Replacing the OP-AMP with the schmitt trigger
+========================================================================================================================
+
+When the sensor sends - 1 , 0.13mA
+
+When the sensor sends - 0 , 0.03mA
+
+
+========================================================================================================================
+// 6V - 4x1.5V - AA batteries 
+========================================================================================================================
+
+The Tri-state buffer and the Schmitt-Inverter and the XOR gate all of these 
+
+Vih = 0.7x6 = 4.2V ,
+
+The o/p of the Sensor = Vs = 3.3V
+
+Hence in order to recognize Logic "1" it will need level translator or another logic in front.
+
+NOT gate [ that was ordered from Comkey : NC7ST04 : Fairchild ] has the Vih = 2V. Hence that can solve the issue. 
+
+
+ADVANTAGE : 6V is sufficinetly higher than the Sensor HC-SR501 requirement of VDD = 3.3+0,1+0.5 = 3.9V minimum. 
+
+Hnece if we can minimize the current use of 6V [ 4 - AA ] batteries would make it work longer even if the battery voltage drops.
+But in that case if the battery voltage drops we need to be sure if the battery woould be able to supply the peak current of ~ 3mA
+
+
+========================================================================================================================
+// 4.5V - 3x1.5V - AA batteries 
+========================================================================================================================
+
+The Tri-state buffer and the Schmitt-Inverter and the XOR gate all of these 
+
+Vih = 0.7x4.5 = 3.15V ,
+
+The o/p of the Sensor = Vs = 3.3V
+
+------------------------------------------------------------------------------------------------------------------------
+Exp 1 : Directly connected the sensor o/p to the R,C and the XOR gate.
+------------------------------------------------------------------------------------------------------------------------
+Result : As the sensor o/p Vs = 3.3 V is quite close to the threshold we saw that the ckt was NOT working as desired.
+
+
+Conclusion : The sensor needs to be isolated with some kind of logic gate from the rest of the circuit.
+
+Analysis   :
+             The reason may be that the o/p of the sensor is having 1K resistance , hence the effective o/p with slight current will be less that the 
+	     theshold of Vih = 3.15V. 
+	     Note that there are 2 loads on the o/p of the sensor : 1) R,C circuit 2) Schmitt INV. 
+	     Even the schmitt INV current passes throgh the 1K/3K series resistance. 
+	     Vi [ sch inv ] = Vs - I [ sch inv ]*[1K (sensor) + 1K (of the RC) ] 
+	     Vi [ sch inv ] = 3.3 - 0.075mA*2K
+	     Vi [ sch inv ] = 3.3 - 0.15V
+	     Vi [ sch inv ] = 3.15V
+
+	     So even with 75uA , the current at the schmitt inv will go wrong.
+
+	     Can not correct the Vs directly to the RC network
+------------------------------------------------------------------------------------------------------------------------
+Exp 2 : Two NOT gates and then RC [ With the all the single gates connected ]
+------------------------------------------------------------------------------------------------------------------------
+As the input is a not gate with Vih = 2V, we are safe from the logic level point of view
+
+The current measured was 
+
+
+Iq [ Sensor 1 ] = 0.21mA
+Iq [ Sensor 0 ] = 0.14mA
+
+------------------------------------------------------------------------------------------------------------------------
+Exp 3 : Tri-state buffer and then RC [ With the all the signle gates connected ]
+------------------------------------------------------------------------------------------------------------------------
+
+Tri state buffer Vih = 3.15V , worked well with Vs = 3.3 V. [ As 3.15 is the max rating we can assume safe ]
+
+Iq [ Sensor 1 ] = 0.17mA
+Iq [ Sensor 0 ] = 0.14mA
+
+It seems that the over all quiscent current Iq is contribution of all the un-used gates. 
+
+So with the single gate circuits we have [ with all 16 gates wired ] we ger Iq = 0.14mA
+
+
+Exp 4 : With 2 NOT gates 
+Exp 5 : With buffer
+
+------------------------------------------------------------------------------------------------------------------------
+Exp 4 : With only Single 2 NOT gates and RC  gates and no other extra gates 
+------------------------------------------------------------------------------------------------------------------------
+Iq [ Sensor 1 ] = 0.108mA
+Iq [ Sensor 0 ] = 0.036mA
+
+Approx 2 years battery @1000mAH
+------------------------------------------------------------------------------------------------------------------------
+Exp 5 : With 1G125 buffer and RC  gates and no other extra gates 
+------------------------------------------------------------------------------------------------------------------------
+Iq [ Sensor 1 ] = 0.275mA
+Iq [ Sensor 0 ] = 0.036mA
+
+
+With Only the required gates the Iq << 0.1mA
+
+
+TODO : Need to add the votage detector and find the Iq
+========================================================================================================================
+// Low battery indication circuit 
+========================================================================================================================
+
+Using a Schmitt INV ckt  : 
+
+Vil = 1.6V
+
+Hence we need a low battery indication to be tranismitted when Vbat <= 4V
+
+See the book : 
+
+R1 + R2 >= 450K , Considering <10uA consumption at the 4.5V
+
+And for the Low voltage generation using the divider ckt. 
+
+Vbat * R2/ ( R1 +R2) <= 1.6
+
+4*R2/(450K) <= 1.6
+
+40R2 <= 16*450
+
+R2 <= 16*450/40 
+
+R2 <= 180K
+
+R1 = 450 - 180 =  270K
+========================================================================================================================
