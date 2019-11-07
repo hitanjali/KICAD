@@ -1,0 +1,24 @@
+Observations : 
+
+With the Touch sensitivity capacitor : 
+
+--------------------------------------------------------------------------------------------------------------------------------
+Cap Value | Sensitivity level                                          | Remarks                                               |                   
+--------------------------------------------------------------------------------------------------------------------------------
+   No Cap | Highest sensitivity. Able to detect from above the plastic | At afternoon : noise also triggers the switch         |
+          | Even with the amro tape                                    |                                                       |
+--------------------------------------------------------------------------------------------------------------------------------
+   22pF   | No able to detect through the plastic                      | Can not be used                                       |
+--------------------------------------------------------------------------------------------------------------------------------
+   10pF   | No able to detect through the plastic                      | Can not be used                                       |
+--------------------------------------------------------------------------------------------------------------------------------
+  5.1pF   | Detect with little pressure                                | Can not be used                                       |
+          | Not able to detect with the amro tape                      | May create issue on the system                        |
+--------------------------------------------------------------------------------------------------------------------------------
+  1.2pF   | Detect with touch on the plastic                           | Not extra sensitive as no detection from bit distance |
+          | Able to detect with the amro tape too                      | Seems a near to required value                        |
+--------------------------------------------------------------------------------------------------------------------------------
+
+Conclusion : 
+
+Required 1.2pF 
