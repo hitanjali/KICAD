@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:occupancy-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -42,7 +41,7 @@ U 1 1 5C470FE9
 P 7550 2900
 F 0 "Q1" H 7741 2946 50  0000 L CNN
 F 1 "BC547" H 7741 2855 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_HandSolder" H 7750 2825 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-92_Wide" H 7750 2825 50  0001 L CIN
 F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 7550 2900 50  0001 L CNN
 	1    7550 2900
 	1    0    0    -1  
@@ -114,17 +113,6 @@ F 3 "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf" H 7850 2250 50  0001
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x02 J1
-U 1 1 5C4739E9
-P 2050 3050
-F 0 "J1" H 1970 2725 50  0000 C CNN
-F 1 "Screw_Terminal_01x02" H 1970 2816 50  0000 C CNN
-F 2 "mylibs:Screw_terminal_2pin_P5mm_width10mm" H 2050 3050 50  0001 C CNN
-F 3 "~" H 2050 3050 50  0001 C CNN
-	1    2050 3050
-	-1   0    0    1   
-$EndComp
-$Comp
 L Connector:Conn_01x03_Female J2
 U 1 1 5C473F9C
 P 5250 2550
@@ -135,8 +123,6 @@ F 3 "~" H 5250 2550 50  0001 C CNN
 	1    5250 2550
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	2250 3050 2250 3100
 $Comp
 L power:GNDREF #PWR0101
 U 1 1 5C474AB0
@@ -330,19 +316,6 @@ Wire Wire Line
 	2850 2950 2850 2850
 Wire Wire Line
 	2400 2950 2850 2950
-$Comp
-L Connector:Screw_Terminal_01x02 J3
-U 1 1 5C473A8F
-P 7950 1555
-F 0 "J3" V 7916 1367 50  0000 R CNN
-F 1 "Screw_Terminal_01x02" V 7825 1367 50  0000 R CNN
-F 2 "mylibs:Screw_terminal_2pin_P5mm_width10mm" H 7950 1555 50  0001 C CNN
-F 3 "~" H 7950 1555 50  0001 C CNN
-	1    7950 1555
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	2250 3100 2605 3100
 Wire Wire Line
 	8590 4705 2605 4705
 Wire Wire Line
@@ -360,17 +333,67 @@ Wire Wire Line
 	7950 1845 8590 1845
 Wire Wire Line
 	8590 1845 8590 4705
+Text Notes 7375 6740 0    50   ~ 0
+As per the GP Box
+$Comp
+L Connector_Generic:Conn_01x02 J1
+U 1 1 5DC3D459
+P 2050 3050
+F 0 "J1" H 1970 2725 50  0000 C CNN
+F 1 "Conn_01x02" H 1970 2816 50  0000 C CNN
+F 2 "Connector_Wire:SolderWirePad_1x02_P5.08mm_Drill1.5mm" H 2050 3050 50  0001 C CNN
+F 3 "~" H 2050 3050 50  0001 C CNN
+	1    2050 3050
+	-1   0    0    1   
+$EndComp
 Wire Wire Line
-	8150 1950 8810 1950
+	2250 3050 2250 3100
+Wire Wire Line
+	2250 3100 2605 3100
+Wire Wire Line
+	8150 1755 8150 1950
+$Comp
+L Connector_Generic:Conn_01x02 J3
+U 1 1 5DC413CD
+P 7950 1555
+F 0 "J3" V 8035 1555 50  0000 R CNN
+F 1 "Conn_01x02" V 8125 1885 50  0000 R CNN
+F 2 "Connector_Wire:SolderWirePad_1x02_P5.08mm_Drill1.5mm" H 7950 1555 50  0001 C CNN
+F 3 "~" H 7950 1555 50  0001 C CNN
+	1    7950 1555
+	0    -1   -1   0   
+$EndComp
 $Comp
 L Connector_Generic:Conn_01x01 J4
-U 1 1 5DC49214
-P 9010 1950
-F 0 "J4" H 9090 1992 50  0000 L CNN
-F 1 "Conn_01x01" H 9090 1901 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 9010 1950 50  0001 C CNN
-F 3 "~" H 9010 1950 50  0001 C CNN
-	1    9010 1950
+U 1 1 5DC415BB
+P 8150 1555
+F 0 "J4" V 8240 1585 50  0000 R CNN
+F 1 "Conn_01x01" V 8160 1480 50  0000 R CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_Drill1.5mm" H 8150 1555 50  0001 C CNN
+F 3 "~" H 8150 1555 50  0001 C CNN
+	1    8150 1555
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5DC41FA0
+P 3370 1145
+F 0 "H1" H 3470 1191 50  0000 L CNN
+F 1 "MountingHole" H 3470 1100 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 3370 1145 50  0001 C CNN
+F 3 "~" H 3370 1145 50  0001 C CNN
+	1    3370 1145
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5DC4211C
+P 4590 1100
+F 0 "H2" H 4690 1146 50  0000 L CNN
+F 1 "MountingHole" H 4690 1055 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 4590 1100 50  0001 C CNN
+F 3 "~" H 4590 1100 50  0001 C CNN
+	1    4590 1100
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

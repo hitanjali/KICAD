@@ -103,7 +103,7 @@ F 3 "~" H 5450 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Relay:SANYOU_SRD_Form_C K1
+L occupancy-rescue:SANYOU_SRD_Form_C-Relay K1
 U 1 1 5C47358F
 P 7850 2250
 F 0 "K1" H 8280 2296 50  0000 L CNN
@@ -123,17 +123,6 @@ F 2 "mylibs:Screw_terminal_2pin_P5mm_width10mm" H 2050 3050 50  0001 C CNN
 F 3 "~" H 2050 3050 50  0001 C CNN
 	1    2050 3050
 	-1   0    0    1   
-$EndComp
-$Comp
-L Connector:Screw_Terminal_01x02 J3
-U 1 1 5C473A8F
-P 8000 1550
-F 0 "J3" V 7966 1362 50  0000 R CNN
-F 1 "Screw_Terminal_01x02" V 7875 1362 50  0000 R CNN
-F 2 "mylibs:Screw_terminal_2pin_P5mm_width10mm" H 8000 1550 50  0001 C CNN
-F 3 "~" H 8000 1550 50  0001 C CNN
-	1    8000 1550
-	0    -1   -1   0   
 $EndComp
 $Comp
 L Connector:Conn_01x03_Female J2
@@ -252,14 +241,6 @@ Wire Wire Line
 Wire Wire Line
 	8050 4350 8050 2550
 Wire Wire Line
-	7950 1950 7950 1750
-Wire Wire Line
-	7950 1750 8000 1750
-Wire Wire Line
-	8100 1750 8150 1750
-Wire Wire Line
-	8150 1750 8150 1950
-Wire Wire Line
 	6700 2900 6900 2900
 Wire Wire Line
 	7250 2900 7250 3400
@@ -349,6 +330,49 @@ Wire Wire Line
 	2850 2950 2850 2850
 Wire Wire Line
 	2400 2950 2850 2950
+$Comp
+L Connector:Screw_Terminal_01x02 J3
+U 1 1 5C473A8F
+P 7950 1555
+F 0 "J3" V 7916 1367 50  0000 R CNN
+F 1 "Screw_Terminal_01x02" V 7825 1367 50  0000 R CNN
+F 2 "mylibs:Screw_terminal_2pin_P5mm_width10mm" H 7950 1555 50  0001 C CNN
+F 3 "~" H 7950 1555 50  0001 C CNN
+	1    7950 1555
+	0    -1   -1   0   
+$EndComp
 Wire Wire Line
-	2250 3100 2850 3100
+	2250 3100 2605 3100
+Wire Wire Line
+	8590 4705 2605 4705
+Wire Wire Line
+	2605 4705 2605 3100
+Connection ~ 2605 3100
+Wire Wire Line
+	2605 3100 2850 3100
+Wire Wire Line
+	8050 1755 8050 1950
+Wire Wire Line
+	8050 1950 7950 1950
+Wire Wire Line
+	7950 1755 7950 1845
+Wire Wire Line
+	7950 1845 8590 1845
+Wire Wire Line
+	8590 1845 8590 4705
+Wire Wire Line
+	8150 1950 8810 1950
+$Comp
+L Connector_Generic:Conn_01x01 J4
+U 1 1 5DC49214
+P 9010 1950
+F 0 "J4" H 9090 1992 50  0000 L CNN
+F 1 "Conn_01x01" H 9090 1901 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 9010 1950 50  0001 C CNN
+F 3 "~" H 9010 1950 50  0001 C CNN
+	1    9010 1950
+	1    0    0    -1  
+$EndComp
+Text Notes 7375 6740 0    50   ~ 0
+As per the GP Box
 $EndSCHEMATC
