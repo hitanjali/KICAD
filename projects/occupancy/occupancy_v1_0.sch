@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:occupancy_v1_0-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -317,52 +318,15 @@ Wire Wire Line
 Wire Wire Line
 	2400 2950 2850 2950
 Wire Wire Line
-	8590 4705 2605 4705
-Wire Wire Line
-	2605 4705 2605 3100
-Connection ~ 2605 3100
-Wire Wire Line
-	2605 3100 2850 3100
-Wire Wire Line
 	8050 1755 8050 1950
 Wire Wire Line
 	8050 1950 7950 1950
-Wire Wire Line
-	7950 1755 7950 1845
-Wire Wire Line
-	7950 1845 8590 1845
-Wire Wire Line
-	8590 1845 8590 4705
 Text Notes 7375 6740 0    50   ~ 0
 As per the GP Box
-$Comp
-L Connector_Generic:Conn_01x02 J1
-U 1 1 5DC3D459
-P 2050 3050
-F 0 "J1" H 1970 2725 50  0000 C CNN
-F 1 "Conn_01x02" H 1970 2816 50  0000 C CNN
-F 2 "Connector_Wire:SolderWirePad_1x02_P5.08mm_Drill1.5mm" H 2050 3050 50  0001 C CNN
-F 3 "~" H 2050 3050 50  0001 C CNN
-	1    2050 3050
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	2250 3050 2250 3100
 Wire Wire Line
-	2250 3100 2605 3100
-Wire Wire Line
 	8150 1755 8150 1950
-$Comp
-L Connector_Generic:Conn_01x02 J3
-U 1 1 5DC413CD
-P 7950 1555
-F 0 "J3" V 8035 1555 50  0000 R CNN
-F 1 "Conn_01x02" V 8125 1885 50  0000 R CNN
-F 2 "Connector_Wire:SolderWirePad_1x02_P5.08mm_Drill1.5mm" H 7950 1555 50  0001 C CNN
-F 3 "~" H 7950 1555 50  0001 C CNN
-	1    7950 1555
-	0    -1   -1   0   
-$EndComp
 $Comp
 L Connector_Generic:Conn_01x01 J4
 U 1 1 5DC415BB
@@ -394,6 +358,52 @@ F 1 "MountingHole" H 4690 1055 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 4590 1100 50  0001 C CNN
 F 3 "~" H 4590 1100 50  0001 C CNN
 	1    4590 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J3
+U 1 1 5DE8CC50
+P 8050 1555
+F 0 "J3" V 8140 1585 50  0000 R CNN
+F 1 "Conn_01x01" V 8045 2060 50  0000 R CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_Drill1.5mm" H 8050 1555 50  0001 C CNN
+F 3 "~" H 8050 1555 50  0001 C CNN
+	1    8050 1555
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2250 3100 2850 3100
+$Comp
+L Connector_Generic:Conn_01x01 J1
+U 1 1 5DE95A80
+P 2050 2950
+F 0 "J1" V 2140 2980 50  0000 R CNN
+F 1 "Conn_01x01" V 2060 2875 50  0000 R CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_Drill1.5mm" H 2050 2950 50  0001 C CNN
+F 3 "~" H 2050 2950 50  0001 C CNN
+	1    2050 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J5
+U 1 1 5DE95A87
+P 2050 3050
+F 0 "J5" V 2140 3080 50  0000 R CNN
+F 1 "Conn_01x01" V 2045 3555 50  0000 R CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_Drill1.5mm" H 2050 3050 50  0001 C CNN
+F 3 "~" H 2050 3050 50  0001 C CNN
+	1    2050 3050
+	-1   0    0    1   
+$EndComp
+$Comp
+L hitesh_custom:AnyPCB PCB1
+U 1 1 5DE9A3AB
+P 5950 1265
+F 0 "PCB1" H 6228 1536 50  0000 L CNN
+F 1 "HC-SR501" H 6228 1445 50  0000 L CNN
+F 2 "" H 5950 1265 50  0001 C CNN
+F 3 "" H 5950 1265 50  0001 C CNN
+	1    5950 1265
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

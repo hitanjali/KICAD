@@ -198,7 +198,7 @@ L Device:C_Small C1
 U 1 1 5D357F6A
 P 6550 3900
 F 0 "C1" H 6642 3946 50  0000 L CNN
-F 1 "30pF" H 6642 3855 50  0000 L CNN
+F 1 "1.2pF" H 6642 3855 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6550 3900 50  0001 C CNN
 F 3 "~" H 6550 3900 50  0001 C CNN
 	1    6550 3900
@@ -226,5 +226,5 @@ F 3 "" H 6550 3400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Text Notes 7050 6650 0    50   ~ 0
-As Green was found tobe very bright it is shifted to Switch o/p and Blue was shifted to power indication.
+V1.6 : Required 1.2pF for the correct sensitivity. Refer the document in DOC folder
 $EndSCHEMATC

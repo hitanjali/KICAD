@@ -160,7 +160,12 @@ Iq [ Sensor 0 ] = 0.036mA
 With Only the required gates the Iq << 0.1mA
 
 
-TODO : Need to add the votage detector and find the Iq
+TODO : Need to add the votage detector and find the Iq with 2 NOT gates
+
+Iq [ Sensor 1 ] = 0.170mA
+Iq [ Sensor 0 ] = 0.065mA
+
+Voltage detector has added a little but still should work
 ========================================================================================================================
 // Low battery indication circuit 
 ========================================================================================================================
