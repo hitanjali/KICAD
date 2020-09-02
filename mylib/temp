@@ -1,0 +1,99 @@
+ D Detector_SW.kicad_mod
+ D ../projects/MOTBOX_TOP/MOTBOX_TOP.sch
+ D ../projects/MOTBOX_TOP/MOTBOX_TOP.xlsx
+ M ../projects/MOTBOX_TOP/MOTBOX_TOP.xml
+ git rm  ../projects/MOTBOX_TOP/MOTBOX_TOP_CN.csv
+ git rm  ../projects/MOTBOX_TOP/MOTBOX_TOP_IN.csv
+ D ../projects/MOTBOX_TOP/touch_switch/Gerber/touch_switch-F.Cu.gtl
+ D ../projects/MOTBOX_TOP/touch_switch/_autosave-touch_switch.kicad_pcb
+?? .temp.swp
+?? ESE31L11T/
+?? ESE31R11T/
+?? Regulator_Switching_hitesh.bck
+?? Regulator_Switching_hitesh.dcm
+?? Regulator_Switching_hitesh.lib
+?? TBD/
+?? temp
+?? ../projects/EXP/TOP1/top/Socket_Arduino_Pro_Mini.3dshapes/
+?? ../projects/EXP/TOP1/top/Socket_Arduino_Pro_Mini.pretty/
+?? ../projects/EXP/TOP1/top/sym-lib-table
+?? ../projects/EXP/TOP1/top/top-rescue.dcm
+?? ../projects/EXP/TOP1/top/top-rescue.lib
+?? ../projects/EXP/TOP1/top/top.cmp
+?? ../projects/EXP/multi_pcb/Nano_temp/
+?? ../projects/EXP/multi_pcb/nano_vala/
+?? ../projects/EXP/multi_pcb/pcb1.bak
+?? ../projects/EXP/multi_pcb/pcb1.sch
+?? ../projects/EXP/multi_pcb/pcb1/
+?? ../projects/EXP/multi_pcb/pcb2.bak
+?? ../projects/EXP/multi_pcb/pcb2.pro
+?? ../projects/EXP/multi_pcb/pcb2.sch
+?? ../projects/EXP/multi_pcb/pcb2/
+?? ../projects/EXP/multi_pcb/pro_mini_created/
+?? ../projects/MOTBOX_TOP/BOM_COST/
+?? ../projects/MOTBOX_TOP/MOTBOX_TOP.xls
+?? ../projects/MOTBOX_TOP/MOTBOX_TOP_Assembly_cost.csv
+?? ../projects/MOTBOX_TOP/MOTBOX_TOP_COMP_COST.xls
+?? ../projects/MOTBOX_TOP/MOTBOX_TOP_connectors.xls
+?? ../projects/MOTBOX_TOP/MOTBOX_TOP_v1_2.xls
+?? ../projects/MOTBOX_TOP/MOTBOX_TOP_v1_3.xls
+?? ../projects/MOTBOX_TOP/MOTBOX_TOP_v1_4.xls
+?? ../projects/MOTBOX_TOP/Motbox_main.bak
+?? ../projects/MOTBOX_TOP/Motbox_main.sch
+?? ../projects/MOTBOX_TOP/Motbox_mainsch.bak
+?? ../projects/MOTBOX_TOP/Motbox_mainsch.sch
+?? ../projects/MOTBOX_TOP/ir_rx_led/Gerber/
+?? ../projects/MOTBOX_TOP/ir_rx_led/ir_rx_led.csv
+?? ../projects/MOTBOX_TOP/ir_rx_led/ir_rx_led.xml
+?? ../projects/MOTBOX_TOP/ir_rx_led/ir_rx_led_LC_BOM.csv
+?? ../projects/MOTBOX_TOP/ir_rx_led/ir_rx_led_LC_BOM.xlsx
+?? ../projects/MOTBOX_TOP/ir_rx_led/ir_rx_led_LC_BOM_report.log
+?? ../projects/MOTBOX_TOP/ir_tx_led/Gerber/
+?? ../projects/MOTBOX_TOP/ir_tx_led/ir_tx_led-Edge.Cuts.gm1
+?? ../projects/MOTBOX_TOP/ir_tx_led/ir_tx_led.csv
+?? ../projects/MOTBOX_TOP/ir_tx_led/ir_tx_led.xml
+?? ../projects/MOTBOX_TOP/ir_tx_led/ir_tx_led_LC_BOM.csv
+?? ../projects/MOTBOX_TOP/ir_tx_led/ir_tx_led_LC_BOM.xlsx
+?? ../projects/MOTBOX_TOP/ir_tx_led/ir_tx_led_LC_BOM_report.log
+?? ../projects/MOTBOX_TOP/limit_switch/ESE31_limit_sw.kicad_pcb
+?? ../projects/MOTBOX_TOP/limit_switch/ESE31_limit_sw.kicad_pcb-bak
+?? ../projects/MOTBOX_TOP/limit_switch/ESE31_limit_sw.pro
+?? ../projects/MOTBOX_TOP/limit_switch/Gerber/
+?? ../projects/MOTBOX_TOP/limit_switch/limit_switch.csv
+?? ../projects/MOTBOX_TOP/limit_switch/limit_switch.xml
+rm  ../projects/MOTBOX_TOP/limit_switch/limit_switch_ESE31_v1_0-cache.lib
+rm  ../projects/MOTBOX_TOP/limit_switch/limit_switch_ESE31_v1_0.bak
+rm  ../projects/MOTBOX_TOP/limit_switch/limit_switch_ESE31_v1_0.csv
+rm  ../projects/MOTBOX_TOP/limit_switch/limit_switch_ESE31_v1_0.kicad_pcb
+rm  ../projects/MOTBOX_TOP/limit_switch/limit_switch_ESE31_v1_0.kicad_pcb-bak
+rm  ../projects/MOTBOX_TOP/limit_switch/limit_switch_ESE31_v1_0.net
+rm  ../projects/MOTBOX_TOP/limit_switch/limit_switch_ESE31_v1_0.pro
+rm  ../projects/MOTBOX_TOP/limit_switch/limit_switch_ESE31_v1_0.sch
+rm  ../projects/MOTBOX_TOP/limit_switch/limit_switch_ESE31_v1_0.xml
+rm  ../projects/MOTBOX_TOP/limit_switch/limit_switch_top_bottom_ESE31-cache.lib
+rm  ../projects/MOTBOX_TOP/limit_switch/limit_switch_top_bottom_ESE31.kicad_pcb
+rm  ../projects/MOTBOX_TOP/limit_switch/limit_switch_top_bottom_ESE31.kicad_pcb-bak
+rm  ../projects/MOTBOX_TOP/limit_switch/limit_switch_top_bottom_ESE31.net
+rm  ../projects/MOTBOX_TOP/limit_switch/limit_switch_top_bottom_ESE31.pro
+rm  ../projects/MOTBOX_TOP/limit_switch/limit_switch_top_bottom_ESE31.sch
+git add ../projects/MOTBOX_TOP/limit_switch_DT045.bak
+git add ../projects/MOTBOX_TOP/limit_switch_DT045.sch
+git add ../projects/MOTBOX_TOP/limit_switch_ESE31.bak
+git add ../projects/MOTBOX_TOP/limit_switch_ESE31.sch
+?? ../projects/MOTBOX_TOP/motbox_main.bak
+?? ../projects/MOTBOX_TOP/motbox_main.sch
+?? ../projects/MOTBOX_TOP/motbox_with_promini.bak
+?? ../projects/MOTBOX_TOP/motbox_with_promini.sch
+?? ../projects/MOTBOX_TOP/motbox_with_promini/Gerber/motbox_with_promini_v1_2/
+?? ../projects/MOTBOX_TOP/motbox_with_promini/motbox_with_promini_v1_1.bak
+?? ../projects/MOTBOX_TOP/motbox_with_promini/motbox_with_promini_v1_1.cache.lib
+?? ../projects/MOTBOX_TOP/motbox_with_promini/motbox_with_promini_v1_1.kicad_pcb
+?? ../projects/MOTBOX_TOP/motbox_with_promini/motbox_with_promini_v1_1.kicad_pcb-bak
+?? ../projects/MOTBOX_TOP/motbox_with_promini/motbox_with_promini_v1_1.net
+?? ../projects/MOTBOX_TOP/motbox_with_promini/motbox_with_promini_v1_1.pro
+?? ../projects/MOTBOX_TOP/motbox_with_promini/motbox_with_promini_v1_1.sch
+?? ../projects/MOTBOX_TOP/motbox_with_promini/temp
+?? ../projects/MOTBOX_TOP/motobox_main.bak
+?? ../projects/MOTBOX_TOP/motobox_main.sch
+?? ../projects/MOTBOX_TOP/sym-lib-table
+?? ../projects/Templates/
