@@ -137,7 +137,7 @@ Iq [ Sensor 0 ] = 0.14mA
 
 It seems that the over all quiscent current Iq is contribution of all the un-used gates. 
 
-So with the single gate circuits we have [ with all 16 gates wired ] we ger Iq = 0.14mA
+So with the single gate circuits we have [ with all 16 gates wired ] we get Iq = 0.14mA
 
 
 Exp 4 : With 2 NOT gates 
@@ -162,8 +162,8 @@ With Only the required gates the Iq << 0.1mA
 
 TODO : Need to add the votage detector and find the Iq with 2 NOT gates
 
-Iq [ Sensor 1 ] = 0.170mA
-Iq [ Sensor 0 ] = 0.065mA
+Iq [ Sensor 1 ] = 0.170mA = 170uA 
+Iq [ Sensor 0 ] = 0.065mA =  65uA
 
 Voltage detector has added a little but still should work
 ========================================================================================================================

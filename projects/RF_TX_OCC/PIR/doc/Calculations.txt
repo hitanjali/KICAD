@@ -1,0 +1,47 @@
+LDR resistance  : 
+
+In Light the resistance is < 5K
+
+In dark [ when we may want to start the light ] : resistance > 25K
+
+
+FOr the PIR controller is enabled if the Vc is > 0.2Vdd and disabled when Vc < 0.2Vdd
+
+
+================================================================================
+For PIR to ON : 
+================================================================================
+
+Rl*Vdd/(Rl+Rpot) >= 0.2Vdd
+
+Solving we get 
+
+Rpot <= 4*Rldr
+
+Assuming 30k in dark to begin : 
+
+Rpot <= 120K
+
+================================================================================
+For PIR to be OFF : 
+================================================================================
+
+Rl*Vdd/(Rl+Rpot) <= 0.2Vdd
+
+Solving we get 
+
+Rpot >= 4*Rldr
+
+Assuming 5k in light to begin : 
+
+Rpot >= 20K
+
+================================================================================
+Conclusion  :
+================================================================================
+
+20k <= Rpot <= 120k
+
+
+Hence we can take a pot of 200k
+

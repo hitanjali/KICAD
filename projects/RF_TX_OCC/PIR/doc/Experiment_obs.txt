@@ -1,0 +1,32 @@
+As per the experiment conducted at lab : 
+
+a) There is a sensitivity , noise issue and the result are not predictable nor reproducable. 
+
+Conclusion : As the ckt needs to be tuned for the noise rejection and yet mantain sufficient sensitivity it needs DSO and other instruments to observe the o/p at different places and select particular values. 
+
+We may continue to use the sensor module with the protection diode shorted so that we can work at 3.4V. 
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+EXP with the NCS36000G  
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+1) The chips got burnt with the Reflow solder and was not working.
+   
+   Need to take care of the temperature of the soldering blower. 
+
+ 2) With the another chip soldered with soldering iron. 
+
+    Worked will with the sensitivity is less than 10cm. 
+
+    Current consumption : 90uA = 0.09mA
+
+    The o/p remains high only for 2 sec. Need to check how to increase the time also. 
+
+    
+    Conclusion : Need to increase sensitivity. 
+
+
+    NEED to experiment with the BIS0001 controller with new IC soldered carefully
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
