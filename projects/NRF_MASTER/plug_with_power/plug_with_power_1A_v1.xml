@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/hitesh/KICAD/projects/NRF_MASTER/plug_with_power/plug_with_power_1A_v1.1.sch</source>
+    <date>Thu Jul 16 16:42:41 2020</date>
+    <tool>Eeschema 5.0.2-bee76a0~70~ubuntu18.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>plug_with_power_1A_v1.1.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>MOC3083S</value>
+      <footprint>Package_DIP:SMDIP-6_W9.53mm_Clearance8mm</footprint>
+      <datasheet>http://www.fairchildsemi.com/ds/MO/MOC3081M.pdf</datasheet>
+      <libsource lib="Relay_SolidState" part="MOC3083M" description="Zero Cross Opto-Triac, Vdrm 800V, Ift 5mA, DIP6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F06E61D</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F06E6AE</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>360</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F06E8C3</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F06E8F2</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x02</value>
+      <footprint>Connector_Molex:Molex_KK-396_A-41791-0002_1x02_P3.96mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F06ECC2</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>YELLOW</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F0D6F64</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F0D7722</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F0D8789</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>Z0103MN</value>
+      <footprint>Package_TO_SOT_SMD:SOT-223</footprint>
+      <datasheet>http://www.st.com/resource/en/datasheet/z01.pdf</datasheet>
+      <libsource lib="Triac_Thyristor" part="Z0103MN" description="4Q Triac, 1A RMS, 600V VDRM, 3mA Igt, 7mA Ih, SOT-223"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F0FDC14</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED_Small">
+      <description>Light emitting diode, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small_US">
+      <description>Resistor, small US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small_US</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Relay_SolidState" part="MOC3031M">
+      <aliases>
+        <alias>MOC3032M</alias>
+        <alias>MOC3033M</alias>
+        <alias>MOC3041M</alias>
+        <alias>MOC3042M</alias>
+        <alias>MOC3043M</alias>
+        <alias>MOC3081M</alias>
+        <alias>MOC3082M</alias>
+        <alias>MOC3083M</alias>
+        <alias>MOC3061M</alias>
+        <alias>MOC3062M</alias>
+        <alias>MOC3063M</alias>
+        <alias>MOC3162M</alias>
+        <alias>MOC3163M</alias>
+      </aliases>
+      <description>Zero Cross Opto-Triac, Vdrm 250V, Ift 15mA, DIP6</description>
+      <docs>http://www.fairchildsemi.com/ds/MO/MOC3031M.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SMDIP*W9.53mm*</fp>
+        <fp>DIP*W10.16mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MOC3031M</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="NC" type="NotConnected"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="NC" type="NotConnected"/>
+        <pin num="6" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Triac_Thyristor" part="Z0103MN">
+      <aliases>
+        <alias>Z0103NN</alias>
+        <alias>Z0107MN</alias>
+        <alias>Z0107NN</alias>
+        <alias>Z0109MN</alias>
+        <alias>Z0109NN</alias>
+        <alias>Z0110MN</alias>
+        <alias>Z0110NN</alias>
+      </aliases>
+      <description>4Q Triac, 1A RMS, 600V VDRM, 3mA Igt, 7mA Ih, SOT-223</description>
+      <docs>http://www.st.com/resource/en/datasheet/z01.pdf</docs>
+      <footprints>
+        <fp>SOT*223*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">Z0103MN</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-223</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="passive"/>
+        <pin num="2" name="A2" type="passive"/>
+        <pin num="3" name="G" type="input"/>
+        <pin num="4" name="A4" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>/home/hitesh/KICAD/kicad-symbols/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/home/hitesh/KICAD/kicad-symbols/Device.lib</uri>
+    </library>
+    <library logical="Relay_SolidState">
+      <uri>/home/hitesh/KICAD/kicad-symbols/Relay_SolidState.lib</uri>
+    </library>
+    <library logical="Triac_Thyristor">
+      <uri>/home/hitesh/KICAD/kicad-symbols/Triac_Thyristor.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="2" name="Net-(D1-Pad1)">
+      <node ref="J1" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="3" name="Net-(J1-Pad2)">
+      <node ref="R1" pin="2"/>
+      <node ref="J1" pin="2"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="4" name="Net-(R1-Pad1)">
+      <node ref="U1" pin="1"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="5" name="Net-(U1-Pad3)">
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="6" name="Net-(D2-Pad3)">
+      <node ref="R3" pin="2"/>
+      <node ref="U1" pin="4"/>
+      <node ref="D2" pin="3"/>
+    </net>
+    <net code="7" name="Net-(U1-Pad5)">
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="8" name="/ACHC2">
+      <node ref="D2" pin="2"/>
+      <node ref="D2" pin="4"/>
+      <node ref="J2" pin="1"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="9" name="Net-(R4-Pad2)">
+      <node ref="R4" pin="2"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="10" name="/ACHC1">
+      <node ref="D2" pin="1"/>
+      <node ref="J2" pin="2"/>
+      <node ref="R3" pin="1"/>
+    </net>
+  </nets>
+</export>

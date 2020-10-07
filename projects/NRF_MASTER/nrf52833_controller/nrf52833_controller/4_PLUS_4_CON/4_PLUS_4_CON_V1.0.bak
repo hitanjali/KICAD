@@ -1,0 +1,249 @@
+EESchema Schematic File Version 4
+LIBS:nrf52833_controller-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 6 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 5F20002B
+P 9200 1850
+F 0 "J?" H 9279 1842 50  0000 L CNN
+F 1 "53015-0410" H 9279 1751 50  0000 L CNN
+F 2 "" H 9200 1850 50  0001 C CNN
+F 3 "~" H 9200 1850 50  0001 C CNN
+	1    9200 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 5F200159
+P 9200 2250
+F 0 "J?" H 9279 2242 50  0000 L CNN
+F 1 "53015-0410" H 9279 2151 50  0000 L CNN
+F 2 "" H 9200 2250 50  0001 C CNN
+F 3 "~" H 9200 2250 50  0001 C CNN
+	1    9200 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 5F2001B5
+P 8050 3600
+F 0 "J?" H 8129 3592 50  0000 L CNN
+F 1 "53015-0410" H 8129 3501 50  0000 L CNN
+F 2 "" H 8050 3600 50  0001 C CNN
+F 3 "~" H 8050 3600 50  0001 C CNN
+	1    8050 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 5F200213
+P 7650 4000
+F 0 "J?" H 7729 3992 50  0000 L CNN
+F 1 "53015-0410" H 7729 3901 50  0000 L CNN
+F 2 "" H 7650 4000 50  0001 C CNN
+F 3 "~" H 7650 4000 50  0001 C CNN
+	1    7650 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS151 U?
+U 1 1 5F20074A
+P 6600 3600
+F 0 "U?" H 6850 2750 50  0000 C CNN
+F 1 "MC74HC151ADR2G" H 6200 2750 50  0000 C CNN
+F 2 "" H 6600 3600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS151" H 6600 3600 50  0001 C CNN
+	1    6600 3600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7100 3900 7450 3900
+Wire Wire Line
+	7100 4000 7450 4000
+Wire Wire Line
+	7100 4100 7450 4100
+Wire Wire Line
+	7100 4200 7450 4200
+Wire Wire Line
+	7100 3800 7850 3800
+Wire Wire Line
+	7100 3700 7850 3700
+Wire Wire Line
+	7100 3600 7850 3600
+Wire Wire Line
+	7100 3500 7850 3500
+Wire Wire Line
+	6100 4200 5000 4200
+Text HLabel 5000 4200 0    50   Output ~ 0
+DIN
+Wire Wire Line
+	9000 2450 8600 2450
+Wire Wire Line
+	9000 2350 8600 2350
+Wire Wire Line
+	9000 2250 8600 2250
+Wire Wire Line
+	9000 2150 8600 2150
+Wire Wire Line
+	9000 2050 8600 2050
+Wire Wire Line
+	9000 1950 8600 1950
+Wire Wire Line
+	9000 1850 8600 1850
+Wire Wire Line
+	9000 1750 8600 1750
+Text Label 7200 4200 0    50   ~ 0
+DIN_0
+Text Label 7200 4100 0    50   ~ 0
+DIN_1
+Text Label 7200 4000 0    50   ~ 0
+DIN_2
+Text Label 7200 3900 0    50   ~ 0
+DIN_3
+Text Label 7200 3800 0    50   ~ 0
+DIN_4
+Text Label 7200 3700 0    50   ~ 0
+DIN_5
+Text Label 7200 3600 0    50   ~ 0
+DIN_6
+Text Label 7200 3500 0    50   ~ 0
+DIN_7
+Wire Wire Line
+	7100 3100 7800 3100
+Wire Wire Line
+	7100 3200 7800 3200
+Wire Wire Line
+	7100 3300 7800 3300
+$Comp
+L Device:LED D?
+U 1 1 5F202FE0
+P 5800 3750
+F 0 "D?" V 5838 3632 50  0000 R CNN
+F 1 "LGQ971" V 5747 3632 50  0000 R CNN
+F 2 "" H 5800 3750 50  0001 C CNN
+F 3 "~" H 5800 3750 50  0001 C CNN
+	1    5800 3750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5800 3900 5800 4100
+Wire Wire Line
+	5800 4100 6100 4100
+Wire Wire Line
+	6350 2300 6600 2300
+Wire Wire Line
+	6600 2300 6600 2600
+Wire Wire Line
+	6600 4500 6600 4750
+Wire Wire Line
+	6600 4750 6200 4750
+Text HLabel 6200 4750 0    50   Input ~ 0
++3V3
+Wire Wire Line
+	5800 3600 5800 3250
+$Comp
+L power:+3V3 #PWR0104
+U 1 1 5F204705
+P 5800 3250
+F 0 "#PWR0104" H 5800 3100 50  0001 C CNN
+F 1 "+3V3" H 5815 3423 50  0000 C CNN
+F 2 "" H 5800 3250 50  0001 C CNN
+F 3 "" H 5800 3250 50  0001 C CNN
+	1    5800 3250
+	1    0    0    -1  
+$EndComp
+Entry Wire Line
+	8500 1650 8600 1750
+Entry Wire Line
+	8500 1750 8600 1850
+Entry Wire Line
+	8500 1850 8600 1950
+Entry Wire Line
+	8500 1950 8600 2050
+Entry Wire Line
+	8500 2050 8600 2150
+Entry Wire Line
+	8500 2150 8600 2250
+Entry Wire Line
+	8500 2250 8600 2350
+Entry Wire Line
+	8500 2350 8600 2450
+Entry Wire Line
+	7800 3100 7900 3200
+Entry Wire Line
+	7800 3200 7900 3300
+Entry Wire Line
+	7800 3300 7900 3400
+Wire Bus Line
+	7900 3050 8100 3050
+Text HLabel 8100 3050 2    50   Input ~ 0
+SEL[2:0]
+Wire Bus Line
+	8500 1650 8100 1650
+Text HLabel 8100 1650 0    50   Input ~ 0
+DOUT[7:0]
+Text Label 8650 1750 0    50   ~ 0
+DOUT_0
+Text Label 8650 1850 0    50   ~ 0
+DOUT_1
+Text Label 8650 1950 0    50   ~ 0
+DOUT_2
+Text Label 8650 2050 0    50   ~ 0
+DOUT_3
+Text Label 8650 2150 0    50   ~ 0
+DOUT_4
+Text Label 8650 2250 0    50   ~ 0
+DOUT_5
+Text Label 8650 2350 0    50   ~ 0
+DOUT_6
+Text Label 8650 2450 0    50   ~ 0
+DOUT_7
+Text Label 7250 3100 0    50   ~ 0
+SEL_2
+Text Label 7250 3300 0    50   ~ 0
+SEL_0
+Text Label 7250 3200 0    50   ~ 0
+SEL_1
+Text HLabel 6350 2300 0    50   Input ~ 0
+GND
+$Comp
+L hitesh_custom:GND #PWR0105
+U 1 1 5F206C7F
+P 6900 2400
+F 0 "#PWR0105" H 6900 2150 50  0001 C CNN
+F 1 "GND" H 6905 2227 50  0000 C CNN
+F 2 "" H 6900 2400 50  0001 C CNN
+F 3 "" H 6900 2400 50  0001 C CNN
+	1    6900 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 2300 6900 2300
+Wire Wire Line
+	6900 2300 6900 2400
+Connection ~ 6600 2300
+Wire Wire Line
+	6900 2300 7550 2300
+Wire Wire Line
+	7550 2300 7550 2900
+Wire Wire Line
+	7550 2900 7100 2900
+Wire Bus Line
+	7900 3050 7900 3400
+Wire Bus Line
+	8500 1650 8500 2350
+Connection ~ 6900 2300
+$EndSCHEMATC

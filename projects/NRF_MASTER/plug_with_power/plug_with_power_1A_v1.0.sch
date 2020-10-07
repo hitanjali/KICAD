@@ -1,0 +1,182 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Relay_SolidState:MOC3083M U1
+U 1 1 5F06E61D
+P 5450 3150
+F 0 "U1" H 5450 3475 50  0000 C CNN
+F 1 "MOC3083S" H 5450 3384 50  0000 C CNN
+F 2 "Package_DIP:SMDIP-6_W9.53mm_Clearance8mm" H 5250 2950 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/MO/MOC3081M.pdf" H 5450 3150 50  0001 L CNN
+	1    5450 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R1
+U 1 1 5F06E6AE
+P 4750 3050
+F 0 "R1" V 4545 3050 50  0000 C CNN
+F 1 "220" V 4636 3050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4750 3050 50  0001 C CNN
+F 3 "~" H 4750 3050 50  0001 C CNN
+	1    4750 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R4
+U 1 1 5F06E8C3
+P 6200 2850
+F 0 "R4" V 5995 2850 50  0000 C CNN
+F 1 "360" V 6086 2850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6200 2850 50  0001 C CNN
+F 3 "~" H 6200 2850 50  0001 C CNN
+	1    6200 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R3
+U 1 1 5F06E8F2
+P 5950 3600
+F 0 "R3" H 5882 3554 50  0000 R CNN
+F 1 "330" H 5882 3645 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5950 3600 50  0001 C CNN
+F 3 "~" H 5950 3600 50  0001 C CNN
+	1    5950 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J2
+U 1 1 5F06ECC2
+P 7300 3300
+F 0 "J2" H 7250 3100 50  0000 L CNN
+F 1 "Conn_01x02" V 7380 3201 50  0000 L CNN
+F 2 "Connector_Molex:Molex_KK-396_A-41791-0002_1x02_P3.96mm_Vertical" H 7300 3300 50  0001 C CNN
+F 3 "~" H 7300 3300 50  0001 C CNN
+	1    7300 3300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4200 3050 4300 3050
+Wire Wire Line
+	4850 3050 5150 3050
+Wire Wire Line
+	4200 3150 4300 3150
+Wire Wire Line
+	4550 3150 4550 3250
+Wire Wire Line
+	4550 3250 5150 3250
+Wire Wire Line
+	5750 2850 6100 2850
+Wire Wire Line
+	6300 2850 6650 2850
+Wire Wire Line
+	6650 3850 5950 3850
+Wire Wire Line
+	5950 3850 5950 3700
+Wire Wire Line
+	7500 3300 7500 3850
+Wire Wire Line
+	6650 3450 6650 3850
+Wire Wire Line
+	6500 3400 5950 3400
+Wire Wire Line
+	5750 3400 5750 3250
+Wire Wire Line
+	5950 3500 5950 3400
+Connection ~ 5950 3400
+Wire Wire Line
+	5950 3400 5750 3400
+Wire Wire Line
+	5750 3050 5750 2850
+Wire Wire Line
+	6650 2850 6650 3150
+Wire Wire Line
+	7500 2850 7500 3200
+Text Label 6650 3150 1    50   ~ 0
+ACHC2
+Text Label 6650 3750 1    50   ~ 0
+ACHC1
+$Comp
+L Device:LED_Small D1
+U 1 1 5F0D6F64
+P 4450 3450
+F 0 "D1" H 4450 3350 50  0000 C CNN
+F 1 "YELLOW" H 4450 3550 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 4450 3450 50  0001 C CNN
+F 3 "~" V 4450 3450 50  0001 C CNN
+	1    4450 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R2
+U 1 1 5F0D7722
+P 4800 3450
+F 0 "R2" V 4595 3450 50  0000 C CNN
+F 1 "220" V 4686 3450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4800 3450 50  0001 C CNN
+F 3 "~" H 4800 3450 50  0001 C CNN
+	1    4800 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J1
+U 1 1 5F0D8789
+P 4000 3150
+F 0 "J1" H 3920 2825 50  0000 C CNN
+F 1 "Conn_01x02" H 3920 2916 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4000 3150 50  0001 C CNN
+F 3 "~" H 4000 3150 50  0001 C CNN
+	1    4000 3150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4350 3450 4300 3450
+Wire Wire Line
+	4300 3450 4300 3150
+Connection ~ 4300 3150
+Wire Wire Line
+	4300 3150 4550 3150
+Wire Wire Line
+	4550 3450 4700 3450
+Wire Wire Line
+	4900 3450 5000 3450
+Wire Wire Line
+	5000 3450 5000 2700
+Wire Wire Line
+	5000 2700 4300 2700
+Wire Wire Line
+	4300 2700 4300 3050
+Connection ~ 4300 3050
+Wire Wire Line
+	4300 3050 4650 3050
+$Comp
+L Triac_Thyristor:Z0103MN D2
+U 1 1 5F0FDC14
+P 6650 3300
+F 0 "D2" H 6700 3150 50  0000 L CNN
+F 1 "Z0103MN" V 6779 3255 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-223" H 7400 3150 50  0001 C CNN
+F 3 "http://www.st.com/resource/en/datasheet/z01.pdf" H 6800 3600 50  0001 C CNN
+	1    6650 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 2850 7500 2850
+Connection ~ 6650 2850
+Wire Wire Line
+	6650 3850 7500 3850
+Connection ~ 6650 3850
+$EndSCHEMATC
