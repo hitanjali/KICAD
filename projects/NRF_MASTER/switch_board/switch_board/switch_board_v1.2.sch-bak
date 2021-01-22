@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -285,8 +285,6 @@ Entry Wire Line
 	3850 2350 3950 2250
 Entry Wire Line
 	3850 2250 3950 2150
-Text Notes 7100 6800 0    50   ~ 0
-Version 1.2 : Dimmer with snubber ckt
 Wire Bus Line
 	4700 2100 6000 2100
 Wire Bus Line
@@ -299,4 +297,6 @@ Wire Bus Line
 	5700 1800 6000 1800
 Wire Bus Line
 	3950 2350 7600 2350
+Text Notes 7100 6800 0    50   ~ 0
+Version 1.2 : Dimmer with snubber ckt
 $EndSCHEMATC
