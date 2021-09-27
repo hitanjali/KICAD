@@ -429,6 +429,12 @@ D Power flag, alternating current
 K power-flag
 $ENDCMP
 #
+$CMP Antenna_868M_B6
+D Antenna
+K antenna
+F ~
+$ENDCMP
+#
 $CMP Earth
 D Power flag, earth
 K power-flag ground gnd
