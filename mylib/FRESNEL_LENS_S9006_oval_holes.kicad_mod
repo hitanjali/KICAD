@@ -1,4 +1,4 @@
-(module FRESNEL_LENS_S9006_oval_holes (layer F.Cu) (tedit 60CB2BDD)
+(module FRESNEL_LENS_S9006_oval_holes (layer F.Cu) (tedit 618E005A)
   (descr "Mounting Hole 2.1mm, no annular")
   (tags "mounting hole 2.1mm no annular")
   (attr virtual)
@@ -21,4 +21,9 @@
     (clearance 0.5))
   (pad "" np_thru_hole oval (at 0 11) (size 4 2) (drill oval 4 2) (layers *.Cu *.Mask)
     (clearance 0.5))
+  (model ${MYLIB}/S9006_Lens.step
+    (offset (xyz 0 0 5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 180 0))
+  )
 )

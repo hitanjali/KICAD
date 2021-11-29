@@ -435,6 +435,11 @@ K antenna
 F ~
 $ENDCMP
 #
+$CMP CC110L
+D Sub 1Ghz RF Transceiver IC
+K RF
+$ENDCMP
+#
 $CMP Earth
 D Power flag, earth
 K power-flag ground gnd
@@ -524,6 +529,10 @@ $CMP PWR_FLAG
 D Power flag, general
 K power-flag
 F ~
+$ENDCMP
+#
+$CMP SW_Tact_2x2
+D Noramlly OPEN Push Button Switch
 $ENDCMP
 #
 $CMP VAA
